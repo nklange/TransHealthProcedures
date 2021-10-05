@@ -1,0 +1,534 @@
+---
+title: "NHS Trans Health - Surgical Procedures and Interventions"
+output:
+  bookdown::html_document2
+---
+
+# Introduction
+
+Over the last few years, discussions about the state of transgender health care under the NHS has received medial attention. The focus of this attention is most acutely on the waiting lists to access a first appointment at one of the gender identity clinics (GICs) in the UK as the first step on a NHS-covered gender-confirmation pathway, see coverage by (Pink News)[https://www.pinknews.co.uk/2021/04/20/nhs-gender-clinic-the-laurels-waiting-list-time/] and (the BBC)[https://www.bbc.co.uk/news/uk-england-51006264]. While some gender clinics now openly share their waitlist, such as the (website of the Gender Identity Clinic in London (Tavistock and Portman))[https://gic.nhs.uk/appointments/waiting-times/], for example, sharing they are now seeing patients referred in October 2017 (as of October 4th 2021), the information about waiting lists for other gender clinics was only made public by responses to Freedom-of-Information requests filed by the trans community (see, for example, https://transhealthuk.noblogs.org/covid-19-gender-identity-clinics/).
+
+Naturally, while accessing a first appointment is an important step on the NHS pathway to treatment, it is typically only the first step on the pathway. Generally, individuals seen by a GIC do so to access hormones and/or surgical interventions, depending on personal preference.
+
+According to the NHS [https://www.nhs.uk/conditions/gender-dysphoria/treatment/], the surgeries that are common and routinely available are: 
+
+* bilateral mastectomy and associated chest reconstruction (incl., if necessary, nipple repositioning, dermal implants and tattoos)
+* phalloplasty and metoidoplasty (construction of a penis, incl., if necessary, penile implants)
+* scrotoplasty (construction of a scrotum) and testicular implants
+* removal of the womb and/or ovaries and fallopian tubes (hysterectomy and/or salpingo-oophorectomy)
+
+* removal of testes (orchidectomy)
+* removal of penis (penectomy)
+* construction of vagina (vaginoplasty), vulva (vulvoplasty) and clitoris (clitoroplasty)
+
+While other surgeries are possible and offered in the private sector (such as facial feminising surgery), these are not routinely offered by the NHS. Not all transgender or gender non-conforming individuals seek any or all of the possible surgeries available to them, and individual preferences determine the details and extent of each surgery. Generally, referrals for these surgeries will be made by GICs for the individual when they are still under the care of a GIC at the time -- or by an individual's GP if they have already been discharged from a GIC.
+
+While the number of individuals looking to access a GIC, and the associated length of the waiting list for initial treatment, are well-documented, the ease or difficulty of accessing treatment at a later stage of the pathway is not. In 2018, a Freedom-of-Information-Act (FOIA) request sent to the NHS, and subsequently published on NHS Digital, asked for information about the waiting time from referral to initial appointment for transgender people. The request and response is reproduced in Figure \@ref(fig:foia).
+
+```{r foia, fig.cap = "Response to Freedom-of-Information-Act request about waiting times for transgender procedures in 2018",out.width='100%', echo=FALSE}
+knitr::include_graphics("Figures/FOIA_2018_letter.png")
+```
+
+While the FOIA request specifically asked about the wait lists at the gender clinics for an initial appointment, rather than a wait list for further care, the response offered by NHS Digital referenced the "admissions and average waiting times for transgender surgeries on a national level" and referred the requestant to the £Procedures and Interventions" document published annually by NHS Digital as part of the "Hospital Admitted Patient Care Activity" report. These hospital admissions statistics, with diagnoses upon admittance and interventions, are available via NHS Digital for a number of recent years. As stated in the introduction of these statistics, "[t]he purpose of [these published statistics] is to inform and support strategic and policy-led processes for the benefit of patient care. This document will also be of interest to researchers, journalists and members of the public interested in NHS hospital activity in England." The Hospital Admitted Patient Care Activity documents also include a document on "Diagnosis" that captures the diagnosis values that form the primary (and further) reasons a patient is being treated and admitted to hospital. Given the availability of this information, the aim of this write-up is to capture the prevalence and waiting times of gender-confirmation procedures across recent years.
+
+# Input welcome
+
+This write-up started as a play with some open-source data that I found interesting as someone who usually only gets to play with less applied data and turned into a bit of a scavenger hunt for the people that seem to be missing from the statistics. I am not a medic, so a number of the assumptions I make about how surgeries are likely coded are based on a reasonably well-rounded knowledge - as a member of the community - of the procedures and interventions that are common. The remainder of assumptions about coding data and errors / misunderstandings in coding data are based on my knowledge of dealing with data in other scenarios. This means that it is entirely possible I am missing something that is completely obvious to someone in this field. Any feedback, comments on or corrections of misunderstandings on my part of the information in the spreasheets provided by NHS Digital, such as conventions for coding procedures, are welcome. 
+
+
+# Method
+
+I downloaded the "Hospital Episode Statistics for England. Admitted Patient Care statistics: Procedures and Interventions" and "Hospital Episode Statistics for England. Admitted Patient Care statistics: Diagnosis" from the series "Hospital Admitted Patient Care Activity" published by NHS Digital (https://digital.nhs.uk/data-and-information/publications/statistical/hospital-admitted-patient-care-activity) from 2011 to 2021 inclusive and extracted data relating to the diagnosis and procedures associated with gender-confirmation surgeries.
+
+The data in the documents are based on the 'Finished Consultant Episodes' from the Hospital Episodes Statistics (HES) data warehouse. These indicate a period of care for a patient under a single consultant at a single hospital. The reports available therefore count the number of episodes of care for admitted patients rather than provide the number of patients (i.e., a single patient could have multiple episodes). A stay in hospital from admission to discharge is called a ‘spell’ and can be made up of one or more episodes of care. A stay in hospital from admission to discharge is called a ‘spell’ and can be made up of one or more episodes of care. Finished Consultant Episodes (FCEs) indicate a continuous period of care under one consultant during that spell. While a single patient can be associated with multiple episodes under different consultant, this is unlikely for gender-confirmation surgeries. Therefore, while finished consultant episodes may not necessarily be equal to the number of patients undergoing a particular procedure, it is improbable that the numbers deviate significantly. While the data is provided by the NHS, they included procedures in NHS hospitals under NHS and under private care. This means they do not reflect episodes of care in private hospitals (such as Nuffield).
+
+Procedures and interventions are classified using OPCS-4 codes (most recent: OPCS-4.9). The FOIA response in Figure \@ref(fig:foia) suggests that the relevant codes for gender-confirmation surgeries in 'Procedures and Interventions' are:
+
+* X15.1 Combined operations for transformation from male to female
+* X15.2 Combined operations for transformation from female to male
+* X15.4 Construction of scrotum
+* X15.8 Other specified operations for sexual transformation
+* X15.9 Unspecified operations for sexual transformation
+
+Given the list of procedures available on the NHS, it is not clear which procedures are intended to fall under 'combined operations [...]', 'other specificed operations [...]' or 'unspecified operations [...]'. The procedures routinely availble under the NHS for transgender individuals differ in the complexity of the surgery. It is rather unique to transgender individuals to have a phalloplasty in combination with hysterectomy, or a vaginoplasty in combination with the removal of a penis. It is possible that these are 'combined operations [...]' that the X15.1 and X15.2 codes are meant for. The four surgeries in isolation, however, do occur not only in transgender individuals individually who may not desire the combined operation, but are also undergone by cisgender individuals for a different set of reasons. 
+
+While the NHS uses OPCS-4 codes for the classification of procedures and interventions, they use ICD-10 for diagnoses. For the diagnosis documents, the ICD-10 codes relevant to gender-confirmation are in the F64 category. 
+
+* F64.0	Transsexualism
+* G64.1 Dual role transvestism
+* F64.2	Gender identity disorder of childhood
+* F64.8	Other gender identity disorders
+* F64.9	Gender identity disorder, unspecified
+
+In the first instance I extracted the the information associated with these codes from both sets of documents across the periods specified. For the extraction of procedures and interventions, I only looked at the primary procedure, i.e., the most resurce-intensive procedure and intervention.
+
+## Caveats about data coding and gender markers
+
+As the data are based on NHS hospitals' HES records, we have to assume that the coded gender for procedures and diagnoses matches individuals' NHS record. For gender-confirmation proecedure this results in a number of caveats as far as determining the number of patients of a given gender undergoing procedures.
+
+In the procedures and interventions document a number of sex-specific procedures and interventions are marked-up where individuals with either gender-marker are recorded as having undergone the procedure to flag possible coding errors. While in some cases this may be coding errors, in other cases it may simply be transgender or intersex individuals undergoing procedure not for the purpose of gender-confirmation but for other medical reasons, i.e., a male-identified individual undergoing removal of a lesion on the uterus or ovaries.
+
+For transgender individuals, the gender marker in their NHS record could reflect the gender or the sex depending on personal preference or administrative constraints in changing the record to the preferred gender. Individuals can change the gender associated with their NHS record by changing their gender by deed poll and submitting this to their GP without requiring any formal documentation (such as diagnoses by clinicians in gender clinics). In any individual case this may not be possible due to safety concerns by the individual or administrative restrictions on the side of the GP practice.
+
+Additionally, the NHS only allows the gender to be coded as 'male', 'female' or 'unknown'. Where the gender or sex of an individual falls outside of the binary constraints, a given gender marker will only insufficiently reflect the individuals' gender if 'male' or 'female' has to be chosen. Anecdotally, some hospitals allow patients to determine their gender as 'U' on hospital tags and so forth for the duration of their stay. It is unclear whether that is reflected in the records by assigning 'gender: unknown' for those episodes (as the gender marker associated with diagnoses suggests) or whether the record reverts to the gender marker on the NHS record.
+
+Examinining the X15.x procedure codes over the years, overwhelmingly individuals assigned female at birth appear to be coded as 'male', and individual assigned male at birth as 'female', reflecting the individuals' gender, within binary constraints, rather than sex. For the purpose of this write-up we will assume that individuals assigned female at birth were coded as 'male' for all procedures, and individuals assigned male at birth as 'female'. Given the above caveats this is not necessarily true but is likely true for the majority of recorded episodes. Examining the diagnoses, a good number of individuals are coded as 'unknown' in particular for F64.9.
+
+
+# Analysis of procedures relating to gender-confirmation
+
+
+## Diagnoses
+
+```{r code,echo=FALSE,message=FALSE,error=FALSE}
+
+library(stringr)
+library(dplyr)
+library(tidyr)
+library(magrittr)
+library(purrr)
+library(readr)
+library(tibble)
+library(ggplot2)
+library(ggpattern)
+
+footnote <- function(codes) { 
+  
+  c(codes,paste0("‡ ",codes),paste0("‡",codes))
+    
+    }
+
+
+#OSPC4
+transproc <- c("X15.1","X15.2","X15.4","X15.8","X15.9")
+procedurecodes <- footnote(transproc)
+
+mastectomyproc <-c("B27.4","B27.5","B27.6")
+phalloplastyproc <- "N28.1"
+hysterproc <- c("Q07.3","Q07.4","Q07.5","Q07.8","Q07.9",
+                "Q08.3","Q08.8","Q08.9",
+                "Q22.1","Q22.2","Q22.3",
+                "Q24.1","Q24.2","Q24.3")
+orchidectomyproc <- c("N05.1","N05.2","N05.3","N05.8","N06.3")
+penectomyproc <-  c("N26.1","N26.2","N26.8","N26.9")
+vagplasty <- c("P21.2","P21.3","P21.5")
+
+altcodes <- footnote(c(mastectomyproc,phalloplastyproc,hysterproc,orchidectomyproc,penectomyproc,
+                       vagplasty))
+
+
+#ICD10
+transdiag <- c("F64.0","F64.1","F64.2","F64.8","F64.9")
+
+CollectedData <- readRDS("ProcessedData/ProceduresDiag.rds")
+relevantcol <- c("year","type","Code","Description","FinEpisodes","Admissions",
+                 "GenderMale","GenderFemale","GenderUnknown",
+                 "MeanWaiting","MedianWaiting","MeanStay","MedianStay")
+yearlabels <- stringr::str_replace_all(unique(CollectedData$year),"to","-")
+diaglabels <- c("F64.0\nTranssexualism","F64.1\nDual-role transvestism","F64.2\nGID childhood","F64.8\nOther GIDs","F64.9\nGID, unspecified")
+  
+
+# gender diagnoses
+
+totaldiag <- CollectedData %>% filter(type=="Diagnoses") %>% 
+  select(relevantcol) %>% 
+  select(c("year","type","Code","Description","FinEpisodes",
+           "GenderMale","GenderFemale","GenderUnknown")) %>% 
+  mutate(across(c("FinEpisodes","GenderMale","GenderFemale","GenderUnknown"),as.numeric)) %>% 
+  replace_na(list(GenderFemale=0,GenderUnknown=0)) %>% 
+  mutate(NotProvided = FinEpisodes - GenderMale - GenderFemale -GenderUnknown) %>% 
+
+  pivot_longer(cols=c("GenderMale","GenderFemale","GenderUnknown","NotProvided"),names_to="gender",values_to="value") %>% 
+  group_by(year,gender) %>% 
+  mutate(value = as.numeric(value),
+         FinEpisodes = as.numeric(FinEpisodes)) %>% 
+  summarize(totalep = sum(FinEpisodes,na.rm=T),
+            sumvalue = sum(value,na.rm=T)) %>% 
+  mutate(gender= factor(gender,levels=rev(c("GenderMale","GenderUnknown","GenderFemale","NotProvided")),
+                        labels=rev(c("Male","Unknown","Female","N/A"))))
+
+diag<-ggplot(totaldiag, aes(x = sumvalue, y= year, fill = gender,label=ifelse(sumvalue == 0, "",sumvalue))) + 
+  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
+  #          fill="grey",color="black",stat="identity")+
+  geom_bar(stat="identity",color="black")+
+  geom_text(size = 3, position = position_stack(vjust = 0.5))+
+  
+  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
+  #          fill="transparent",color="black",stat="identity")+
+
+  scale_y_discrete(labels = yearlabels,name="Period")+
+  scale_x_continuous(name="Finished Consultant Episodes")+
+ #coord_flip() + 
+  scale_fill_manual(name="Gender Marker",values=c("#FC8D62","#E78AC3","#66C2A5","#8DA0CB")) + 
+  theme_bw()
+
+# gender diagnosis by type
+
+
+totaldiag_type <- CollectedData %>% filter(type=="Diagnoses") %>% 
+  select(relevantcol) %>% 
+  select(c("year","type","Code","Description","FinEpisodes",
+           "GenderMale","GenderFemale","GenderUnknown")) %>% 
+  mutate(across(c("FinEpisodes","GenderMale","GenderFemale","GenderUnknown"),as.numeric)) %>% 
+  replace_na(list(GenderFemale=0,GenderUnknown=0)) %>% 
+  mutate(NotProvided = FinEpisodes - GenderMale - GenderFemale -GenderUnknown) %>% 
+  
+  pivot_longer(cols=c("GenderMale","GenderFemale","GenderUnknown","NotProvided"),names_to="gender",values_to="value") %>% 
+  group_by(year,Code,gender) %>% 
+  mutate(value = as.numeric(value),
+         FinEpisodes = as.numeric(FinEpisodes)) %>% 
+  summarize(totalep = sum(FinEpisodes,na.rm=T),
+            sumvalue = sum(value,na.rm=T)) %>% 
+  mutate(gender= factor(gender,levels=rev(c("GenderMale","GenderUnknown","GenderFemale","NotProvided")),
+                        labels=rev(c("Male","Unknown","Female","N/A")))) %>%  
+  mutate(Code = factor(Code,levels=transdiag,
+                       labels=diaglabels))
+
+totaldiag_bytype<-ggplot(totaldiag_type, aes(x = sumvalue, y= year, fill = gender,label=ifelse(sumvalue == 0, "",sumvalue))) + 
+  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
+  #          fill="grey",color="black",stat="identity")+
+  facet_grid(.~Code,scales = "free")+
+  geom_bar(stat="identity",color="black")+
+  geom_text(size = 3, position = position_stack(vjust = 0.5))+
+  
+  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
+  #          fill="transparent",color="black",stat="identity")+
+  
+  scale_y_discrete(labels = yearlabels,name="Period")+
+  scale_x_continuous(name="Finished Consultant Episodes")+
+  #coord_flip() + 
+  scale_fill_manual(name="Gender Marker",values=c("#FC8D62","#E78AC3","#66C2A5","#8DA0CB")) + 
+  theme_bw()
+
+```
+
+```{r diag, fig.cap = "Number of diagnoses by year",out.width='70%', echo=FALSE}
+diag
+```
+
+```{r diagtype, fig.cap = "Number of diagnoses by diagnosis and year",out.width='100%', echo=FALSE,fig.height=5,fig.width=15}
+totaldiag_bytype
+```
+
+Figure \@ref(fig:diag) shows the number of diagnoses in the F64 group associated with finished consultant episodes across the time periods between 2011/2012 and 2020/2021. In addition to the total number of diagnoses, the graph also shows the gender marker of individual associated with these diagnoses. Figure \@ref(fig:diagtype) splits this graph into the specific F64.x diagnoses (note the difference in scales).
+
+The main takeaways: The number of diagnoses, likely meaning the number of individuals undergoing a procedure following diagnosis with one of the F64 diagnoses, has increased since 2011. The most recent 2020/2021 report forms an outlier from this pattern, most likely due to restrictions on elective procedures during the Covid-19 pandemic. While the increase in episodes is most marked for individuals associated with a male gender marker, the trend is largely matched by the other groups as well.
+
+The generic F64.0 diagnosis is the most common across all years, with the remaining categories used much less frequently. Despite the lower overall numbers in procedures in the most recent period, the use of the 'F64.9 Gender identity disorder, unspecified' category makes up a markedly larger chunk of diagnoses of the total number of episodes. This is driven in particular by individuals with an unknown gender marker being assigned this diagnosis. This is a departure from previous years where Gender: Unknown was subsumed in F64.0. It is possible that this marks a change in how non-binary individuals are coded.
+
+## Procedures
+
+```{r code2,echo=FALSE,message=FALSE,error=FALSE,warning=FALSE}
+
+
+totalproc <- CollectedData %>% filter(type=="Procedures") %>% 
+  select(relevantcol) %>% 
+  select(c("year","type","Code","Description","FinEpisodes",
+           "GenderMale","GenderFemale","GenderUnknown")) %>% 
+  mutate(across(c("FinEpisodes","GenderMale","GenderFemale","GenderUnknown"),as.numeric)) %>% 
+  replace_na(list(GenderFemale=0,GenderUnknown=0)) %>% 
+  mutate(NotProvided = FinEpisodes - GenderMale - GenderFemale -GenderUnknown) %>% 
+  
+  pivot_longer(cols=c("GenderMale","GenderFemale","GenderUnknown","NotProvided"),names_to="gender",values_to="value") %>% 
+  group_by(year,gender) %>% 
+  mutate(value = as.numeric(value),
+         FinEpisodes = as.numeric(FinEpisodes)) %>% 
+  summarize(totalep = sum(FinEpisodes,na.rm=T),
+            sumvalue = sum(value,na.rm=T)) %>% 
+  mutate(gender= factor(gender,levels=rev(c("GenderMale","GenderUnknown","GenderFemale","NotProvided")),
+                        labels=rev(c("Male","Unknown","Female","N/A"))))
+
+
+diagforproc <- totaldiag %>% mutate(year = factor(year,levels=unique(totaldiag$year),labels=yearlabels))
+totalproc <- totalproc %>% mutate(year=factor(year,levels=unique(totaldiag$year),labels=yearlabels))
+
+procedurevsdiag <- ggplot(diagforproc, aes(x = sumvalue, y=gender,fill = gender,label=ifelse(sumvalue == 0, "",sumvalue))) + 
+  facet_wrap(.~year,nrow=2)+
+  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
+  #          fill="grey",color="black",stat="identity")+
+  geom_bar(stat="identity",color="black",position=position_dodge(0.9),alpha=0.2)+
+  geom_bar(data=totalproc,aes(x=sumvalue,y=gender,fill=gender),stat="identity",color="black",position=position_dodge(0.9))+
+  scale_y_discrete(name="Gender Marker")+
+  scale_x_continuous(name="Finished Consultant Episodes")+
+  #coord_flip() + 
+  scale_fill_manual(name="Gender Marker",values=c("#FC8D62","#E78AC3","#66C2A5","#8DA0CB")) + 
+  theme_bw()
+
+proclabels <- c("X15.1\nTransformation from\nmale to female",
+                "X15.2\nTransformation from\nfemale to male",
+                "X15.4\nConstruction\nof scrotum",
+                "X15.8\nOther specified operations\nfor sexual transformation",
+                "X15.9\nUnspecified operations\nfor sexual transformation")
+
+totalprocbytype <- CollectedData %>% filter(type=="Procedures") %>% 
+  select(relevantcol) %>% 
+ 
+  mutate(across(c("FinEpisodes","GenderMale","GenderFemale","GenderUnknown","MedianWaiting"),as.numeric)) %>% 
+  replace_na(list(GenderFemale=0,GenderUnknown=0)) %>% 
+  mutate(NotProvided = FinEpisodes - GenderMale - GenderFemale -GenderUnknown) %>% 
+  
+  pivot_longer(cols=c("GenderMale","GenderFemale","GenderUnknown","NotProvided"),names_to="gender",values_to="value") %>% 
+  group_by(year,Code,gender) %>% 
+  mutate(value = as.numeric(value),
+         FinEpisodes = as.numeric(FinEpisodes)) %>% 
+  summarize(totalep = sum(FinEpisodes,na.rm=T),
+            sumvalue = sum(value,na.rm=T),
+            MedianWaiting = MedianWaiting/7) %>% 
+  mutate(gender= factor(gender,levels=rev(c("GenderMale","GenderUnknown","GenderFemale","NotProvided")),
+                        labels=rev(c("Male","Unknown","Female","N/A")))) %>% 
+  mutate(Code = factor(Code,levels=transproc[1:5],labels=proclabels))
+
+
+
+totalproc_bytype<-ggplot(totalprocbytype, aes(x = sumvalue, y= year, fill = gender,label=ifelse(sumvalue == 0, "",sumvalue))) + 
+  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
+  #          fill="grey",color="black",stat="identity")+
+  facet_grid(.~Code,scales = "free")+
+  geom_bar(stat="identity",color="black")+
+  geom_text(size = 3, position = position_stack(vjust = 0.5))+
+  
+  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
+  #          fill="transparent",color="black",stat="identity")+
+  
+  scale_y_discrete(labels = yearlabels,name="Period")+
+  scale_x_continuous(name="Finished Consultant Episodes")+
+  #coord_flip() + 
+  scale_fill_manual(name="Gender Marker",values=c("#FC8D62","#E78AC3","#66C2A5","#8DA0CB")) + 
+  theme_bw()
+
+
+
+WaitingTimesbytype <- ggplot(totalprocbytype %>% select(year,Code,MedianWaiting) %>% distinct() , 
+                             aes(x = MedianWaiting, y= year,
+                                 label=ifelse(MedianWaiting == 0, "",round(MedianWaiting,1)))) + 
+  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
+  #          fill="grey",color="black",stat="identity")+
+  facet_grid(.~Code,scales = "free")+
+  geom_bar(stat="identity",color="black",fill="#FFD92F",alpha=0.5 )+
+  geom_text(size = 3, position = position_stack(vjust = 0.5))+
+  
+  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
+  #          fill="transparent",color="black",stat="identity")+
+  
+  scale_y_discrete(labels = yearlabels,name="Period")+
+  scale_x_continuous(name="Median Waiting Time (in weeks)")+
+  #coord_flip() + 
+ 
+  theme_bw()
+
+
+```
+
+Following the freedom-of-information act request, I examined the codes associated with gender-confirming procedures in the procedures and interventions document. Figure \@ref(fig:procedures) shows the procedures by procedure code and year, and also how gender markers are distributed across procedures. Generally, this appears to confirm that the gender marker coded in the NHS documents largely agrees with the preferred gender of individuals, with "transformation from male to female" mostly done on individuals with a female gender marker, and procedures associated with "transformation from female to male" with male gender markers. 
+
+```{r procedures, fig.cap = "Gender-confirming procedures (by code) by year and gender",out.width='100%', echo=FALSE,fig.height=5,fig.width=15}
+totalproc_bytype
+```
+
+Figure \@ref(fig:procedures) is overwhelmingly pink - indicating that a majority of episodes in the procedures and interventions document relate to individuals with a female gender marker. The difference in scales on the x-axis in the plot hides this disparity somewhat. Consequently, I also plotted the procedures recorded for individuals, against the primary diagnoses given to individuals, for a given finished consultant episode. Figure \@ref(fig:procedurevsdiag) shows the number of diagnoses in pastel-color; these are the unstacked bars from Figure \@ref(fig:diag). The solid fill color indicates the number of procedures. Across all gender-marker categories, not all diagnoses are matched by a procedure given the -- according to NHS Digital -- appropriate code. But the discrepancy in procedures and diagnoses is particularly apparent for individuals with a male or unknown gender marker. Even acknowledging noise in the system, and documents not cross-checking perfectly, this discrepancy is stark.
+
+```{r procedurevsdiag, fig.cap = "Mapping gender-confirming procedures (by code) to diagnoses",out.width='100%', echo=FALSE,fig.height=5,fig.width=15}
+procedurevsdiag
+```
+
+While it is now possible to produce a summary on the waiting times for the procedures in Figure \@ref(fig:procedures), see Figure \@ref(fig:waitingtimes), the information is near meaningless for the majority of the data given the small number of data points for, in particular, procedures coded as X15.2 and X15.9.
+
+```{r waitingtimes, fig.cap = "Waiting time for gender-confirming procedures by year",out.width='100%', echo=FALSE,fig.height=5,fig.width=15}
+WaitingTimesbytype
+```
+
+# Where are the missing people? Speculative exploration
+
+Eye-balling the discrepancy of diagnoses and procedures with gender-confirmation specific codes suggests that in particular surgeries for gender-confirmation in male-identified individuals are not coded using the codes suggested in the FOIA-request response. The likely explanation is that X15.x is only used for procedures that are exclusive to gender-confirmation. Of the procedures commonly available under the NHS, these are genital surgeries (removal of penis and testes, and vaginoplasty; construction of penis and scrotum). Anecdotally, these surgeries are less common in male gender-confirmation than female gender-confirmation for a variety of reasons (such as the quality of the outcome). This would match the gender discrepancy in the X15 codes. For masculinizing surgeries, the other available surgeries (mastectomy, hysterectomy) are not only more common in transgender individuals but also undergone by cisgender women for reasons other than gender-confirmation. Therefore it is possible that in particular for individuals with male gender markers assigned a F64.x diagnosis, procedures are not coded under the X15 code but coded under the procedure code that relates to the mechanisms of the surgery directly, rather than the intention of the surgery.
+
+In the following section, I therefore only take a rough, reasonably speculative look at the procedures that could contain subsume gender-confirmation procedures. THis approach has to major issues and is therefore mostly speculative. 
+
+First, not all episodes recorded, even if they match the characteristics ('wrong' gender in great numbers), will be episodes of gender-confirmation procedures and interventions. Note, in particular for hysterectomies it is possible that individuals with a male or unknown gender marker undergo a hysterectomy not for gender-confirmation but for the same reasons (excision of cancer etc) that is frequently the reason for this surgery in cisgender women. In those cases, the diagnosis associated with the procedure would not be F64.x. 
+
+Second, some procedures are undergone by cisgender men and women as well as transgender or gender non-conforming individuals and terminology may be unclear. For example, subcutaneous mastectomies can be used as treatment for breast cancer in both sexes, as treatment for gynecomastia in men or for purposes of gender-confirmation. 
+
+Without closer examination of individual files that link diagnosis and procedure directly, it is impossible to tease apart the intention of the surgery for those generic surgery codes.
+
+## Alternative codes
+
+I examined the codes in the OPCS-4 system that roughly capture the surgeries available to individuals for gender-confirmation on the NHS. I restricted the search to the 4-character codes that appear most likely to be used generically, rather than ones that clearly indicate, for example, removal of a lesion. A number of these codes (apart from mastectomies which occur regularly for both sexes) are marked up in the NHS Digital documents with the footnote "‡ Some 4-character codes are specific to a single gender, where every 4-character code in the reported group is specific to the same gender and an inconsistent combination of gender and code has been supplied the row has been highlighted to identify a potential recording issue."
+
+To find the middle ground of identifying episodes that could relate to gender confirmation while not falsely counting those that do not, I restricted the inclusion of codes in the following ways. The restrictions are based on common-sense assumptions: if these are false, let me know.
+
+* I only looked at the primary procedures and interventions. The primary procedure is the most resource-intensive procedure of a particular episode. This should largely capture gender-confirmation surgeries that are either clearly defined (mastectomy) or so specific they should have been coded under X15.1 or X15.2 (as there are no codes that otherwise appropriately describe it). That is, if procedures are used for gender-confirmation, they are unlikely to be the secondary procedure. Naturally, there may be individual cases where that still occurs. This should avoid capturing episodes of individuals who are not seeking gender-confirmation but may be receiving more complex surgical treatment for other reasons. This is why the numbers I show below differ from those offered in a [freedom-of-information requests about the prevalence of hysterectomies in the UK](https://digital.nhs.uk/data-and-information/supplementary-information/2020/hospital-admissions-data-on-hysterectomies-and-endometriosis)
+
+* I largely focused on the main procedures in a particular group, and avoided including codes that clearly indicated removal of a lesion or similar. This is the reason why I excluded, for example, B27.4 Total mastectomy NEC. While colloquially top surgery for gender confirmation and mastectomy are used interchangeably, it is my understanding that a total mastectomy includes removal of nipple and lymphnodes. This is atypical for top surgeries. 
+
+* For hysterectomies, I only looked at codes relating to hysterectomies rather than also including salpingo-oopherectomies. For gender-confirmation, the combination of both is traditionally more popular. Anecdotally, only one or the other or a very specific combination also occurs. I focused on hysterectomies only under the assumption that if it was a total hysterectomy with salpingo-oopherectomy, it would be coded as the former for the main procedure.
+
+Below, I list the alternative procedure codes I included that could be hiding gender-confirmation surgeries.
+
+* bilateral mastectomy:
+    * ~~B27.4 Total mastectomy NEC~~ 
+    * B27.5 Subcutaneous mastectomy 
+    * B27.6 Skin-sparing mastectomy
+
+* phalloplasty and metoidoplasty (construction of a penis, incl., if necessary, penile implants)
+    * N28.1 construction of penis
+    
+* removal of the womb and/or ovaries and fallopian tubes (hysterectomy and/or salpingo-oophorectomy)
+    * Q07.1	Abdominal hysterocolpectomy and excision of periuterine tissue					
+    * Q07.2	Abdominal hysterectomy and excision of periuterine tissue NEC
+    * Q07.3	Abdominal hysterocolpectomy NEC					
+    * Q07.4	Total abdominal hysterectomy NEC					
+    * Q07.5	Subtotal abdominal hysterectomy
+    * Q07.8	Other specified abdominal excision of uterus					
+    * Q07.9	Unspecified abdominal excision of uterus
+    * Q08.1	Vaginal hysterocolpectomy and excision of periuterine tissue					
+    * Q08.2	Vaginal hysterectomy and excision of periuterine tissue NEC
+    * Q08.3	Vaginal hysterocolpectomy NEC					
+    * Q08.8	Other specified vaginal excision of uterus					
+    * Q08.9	Unspecified vaginal excision of uterus
+    * ~~Q22.1	Bilateral salpingoophorectomy~~
+    * ~~Q22.2	Bilateral salpingectomy NEC~~				
+    * ~~Q22.3	Bilateral oophorectomy NEC~~		
+    * ~~Q24.1	Salpingoophorectomy NEC~~ 				
+    * ~~Q24.2	Salpingectomy NEC~~					
+    * ~~Q24.3	Oophorectomy NEC~~ 					
+
+* removal of testes (orchidectomy)
+    * N05.1	Bilateral subcapsular orchidectomy					
+    * N05.2	Bilateral orchidectomy NEC					
+    * N05.3	Bilateral inguinal orchidectomy					
+    * N05.8	Other specified bilateral excision of testes
+    * N06.3	Orchidectomy NEC					
+
+* removal of penis (penectomy)
+    * N26.1	Total amputation of penis					
+    * N26.2	Partial amputation of penis					
+    * N26.8	Other specified amputation of penis					
+    * N26.9	Unspecified amputation of penis					
+
+* construction of vagina (vaginoplasty), vulva (vulvoplasty) and clitoris (clitoroplasty)
+    * P21.2	Reconstruction of vagina NEC					
+    * P21.3	Vaginoplasty NEC					
+    * P21.5	Vaginoplasty using olive
+    
+For ease of analysis, to pay tribute to the speculative small-numbers nature, I collapsed the analysis of these codes across the groups, i.e., mastectomies are represented by the sum of episodes recorded under the B27. 5 and B27.8 code and so forth. As the overwhelming majority of episodes associated with mastectomies (~90%) and hysterectomies (~99.9%) were coded with a female gender marker, and the overwhelming majority of episodes of orchidectomy (~99.5%) and penectomy (> 99.9%)with a male gender marker, Figure \@ref{fig:altproc} shows only the number of episodes where gender markers are consistent with the intention of gender-confirmation.
+
+```{r code3, error = FALSE, warning=FALSE,message=FALSE,echo=FALSE}
+
+altprocbytype <- CollectedData %>% filter(type=="AltProcedures") %>% 
+  select(relevantcol) %>% 
+  mutate(across(c("FinEpisodes","GenderMale","GenderFemale","GenderUnknown","MedianWaiting"),as.numeric)) %>% 
+  replace_na(list(GenderFemale=0,GenderUnknown=0)) %>% 
+  mutate(NotProvided = FinEpisodes - GenderMale - GenderFemale -GenderUnknown) %>% 
+  
+  pivot_longer(cols=c("GenderMale","GenderFemale","GenderUnknown","NotProvided"),names_to="gender",values_to="value") %>% 
+  mutate(GroupCode = case_when(Code %in% mastectomyproc ~ "Mastectomy",
+                               Code %in% phalloplastyproc ~ "Phalloplasty",
+                               Code %in% hysterproc ~ "Hysterectomy",
+                               Code %in% orchidectomyproc ~ "Orchidectomy",
+                               Code %in% penectomyproc ~ "Penectomy",
+                               Code %in% vagplasty ~ "Vaginoplasty",
+                               TRUE ~ "NA")) %>% 
+  group_by(year,GroupCode,gender) %>% 
+  mutate(value = as.numeric(value),
+         FinEpisodes = as.numeric(FinEpisodes)) %>% 
+  summarize(totalep = sum(FinEpisodes,na.rm=T),
+            sumvalue = sum(value,na.rm=T)) %>% 
+  mutate(gender= factor(gender,levels=rev(c("GenderMale","GenderUnknown","GenderFemale","NotProvided")),
+                        labels=rev(c("Male","Unknown","Female","N/A")))) %>% 
+  mutate(GroupCode = factor(GroupCode,levels= c("Mastectomy","Phalloplasty","Hysterectomy",
+                                                "Orchidectomy","Penectomy","Vaginoplasty"),
+                            labels=c("Mastectomy","Phalloplasty","Hysterectomy",
+                                     "Orchidectomy","Penectomy","Vaginoplasty")))
+
+
+altproccodes <- altprocbytype %>% filter((GroupCode %in% c("Mastectomy","Hysterectomy","Phalloplasty") & gender %in% c("Male","Unknown")) |
+                           (GroupCode %in% c("Orchidectomy","Penectomy","Vaginoplasty") & gender %in% c("Female","Unknown","N/A")))
+
+altproc_bytype<-ggplot(altproccodes, aes(x = sumvalue, y= year, fill = gender,label=ifelse(sumvalue == 0, "",sumvalue))) + 
+  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
+  #          fill="grey",color="black",stat="identity")+
+  facet_wrap(.~GroupCode,scales = "free",nrow=2)+
+  geom_bar(stat="identity",color="black",alpha=0.8)+
+  geom_text(size = 3, position = position_stack(vjust = 0.5))+
+  
+  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
+  #          fill="transparent",color="black",stat="identity")+
+  
+  scale_y_discrete(labels = yearlabels,name="Period")+
+  scale_x_continuous(name="Finished Consultant Episodes")+
+  #coord_flip() + 
+  scale_fill_manual(name="Gender Marker",values=c("#FC8D62","#E78AC3","#66C2A5","#8DA0CB")) + 
+  theme_bw()
+
+
+```
+    
+
+```{r altprocedures, fig.cap = "Gender-confirming procedures (by code) by year and gender",out.width='100%', echo=FALSE,fig.height=8,fig.width=15}
+altproc_bytype
+```
+
+## Adding generic procedures to gender-confirmation specific procedures
+
+While eye-balling the numbers still suggests a discrepancy with diagnoses  - let us put together the confirmed X15 procedures and the speculative alternative generic procedures that would fit the pattern of gender-confirmation surgeries. Figure \@ref(fig:procedurevsdiagALT) shows the same data for diagnoses (in pale, with thick borders) and for confirmed gender-confirmation procedures (in stripes) as Figure \@ref(fig:procedurevsdiag). Additionally, the dotted pattern indicates the addition of episodes that could be gender-confirmation surgeries. 
+
+It is plain to see that in particular for episodes for individuals with male gender marker, this adds a number of surgeries but does not follow the trend in diagnoses. In early periods I analysed (2011-2012), the number of surgeries - driven by the number of mastectomies for indviduals with male gender markers, see Figure \@ref(fig:altprocedures) - exceeds the diagnoses of F64, while in more recent years it is not sufficent to account for the number of diagnoses. One group of individuals that would be in the mastectomy data are cisgender men with gynecomastia. If they make up the bulk of procedures, it suggests the NHS has been much more generous in the past to offer surgical treatment for that condition.
+
+
+```{r code4, error = FALSE, warning=FALSE,message=FALSE,echo=FALSE}
+
+altcodesprocedures <- altproccodes %>% group_by(year,gender) %>% summarize(sums = sum(sumvalue)) %>% 
+  rename("sumvalue" = sums) %>% mutate(source = "alt") %>% 
+   mutate(year = factor(year,levels=unique(totaldiag$year),labels=yearlabels))
+
+x15procedures <-  totalproc %>%  mutate(source = "x15") 
+
+totprocedures <- bind_rows(altcodesprocedures,x15procedures) %>% mutate(gensource = paste0(gender,"_",source))
+
+diagforproc <- totaldiag %>% mutate(year = factor(year,levels=unique(totaldiag$year),labels=yearlabels)) %>% 
+  mutate(gensource = paste0(gender,"_","x15"))
+#totalproc <- totalproc %>% mutate(year=factor(year,levels=unique(totaldiag$year),labels=yearlabels))
+library(ggpattern)
+procedurevsdiagALT <- ggplot(diagforproc, aes(x = sumvalue, y=gender,fill = gender,label=ifelse(sumvalue == 0, "",sumvalue))) + 
+  facet_wrap(.~year,nrow=2)+
+  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
+  #          fill="grey",color="black",stat="identity")+
+  geom_bar(stat="identity",color="black",position=position_dodge(0.9),alpha=0.1,size=1)+
+  geom_col_pattern(data=totprocedures,aes(x=sumvalue,y=gender,fill=gender, pattern=as.factor(source)),alpha=0.3,pattern_fill="black",color="black",
+                   pattern_key_scale_factor = 1.2
+  )+
+  
+  #geom_bar(data=totprocedures,aes(x=sumvalue,y=gender,fill=gensource),color="black")+
+  scale_y_discrete(name="Gender Marker")+
+  scale_x_continuous(name="Finished Consultant Episodes")+
+  #coord_fixed(ratio = 2/1) + 
+  
+  theme_bw() +
+  scale_pattern_discrete(name = "Codes",labels=c("Alternative","X15"),choices=c("circle","stripe"),guide="legend")+
+  scale_fill_manual(name="Gender Marker",values=c("#FC8D62","#E78AC3","#66C2A5","#8DA0CB")) + 
+  theme(legend.key.size = unit(1, 'cm'))
+  
+
+
+```
+
+
+```{r procedurevsdiagALT, fig.cap = "Gender-confirming procedures by year and gender, including alternative codes",out.width='100%', echo=FALSE,fig.height=8,fig.width=15}
+procedurevsdiagALT
+```
+
+# So what do we now know?
+
+As far as the original question goes of 'What are the waiting times for gender-confirmation surgeries on the NHS?', we know very little, even when considering only the national level. Excluding the limited information offered by the most recent report covering 2020-2021, in 2019-2020, a F64 diagnosis as the primary reason a patient is being treated was given as the diagnosis on the hospital record of 
+
+
+
+
+## Private care
+
+Given the long waiting times for access to trans health care in the NHS, many individuals choose to access trans health care, including hormone treatments and surgical procedures privately within the UK or abroad. As is the case within the NHS, private surgical procedures require assessments and referral letters but access to them can be at much shorter time scale. Within the UK, these surgical procedures are administered by surgeons who work both within the NHS and privately. Where they work privately, the care may be within NHS hospitals (and they would show up in the hospital records) or within private hospitals (and the records would not show up). Where individuals go abroad for surgical procedures for cost or expertise, these records naturally do not show up. 
+
+The summary here therefore reflects only hospital episodes where individuals accessed care largely through the NHS pathway, or where surgeons operate privately at NHS hospitals. This write-up therefore provides little information about trans health care in the UK in general, given the propensity of private treatment, but only a snap shot of care - and the limitations of the information on this - within the NHS.
+
+
+
+
