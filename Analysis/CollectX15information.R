@@ -28,9 +28,17 @@ hysterproc <- c("Q07.1","Q07.2","Q07.3","Q07.4","Q07.5","Q07.8","Q07.9",
 orchidectomyproc <- c("N05.1","N05.2","N05.3","N05.8","N06.3")
 penectomyproc <-  c("N26.1","N26.2","N26.8","N26.9")
 vagplasty <- c("P21.2","P21.3","P21.5")
+oocyte <- c("Q48.1","Q48.2","Q48.3","Q48.4","Q48.8","Q48.9")
+
+sperm <- c("N34.1","N34.2","N34.4","N34.5","N34.6","N34.8")
+
+
+
+
 
 altcodes <- footnote(c(mastectomyproc,phalloplastyproc,hysterproc,orchidectomyproc,penectomyproc,
-                       vagplasty))
+                       vagplasty,oocyte,sperm))
+
 
 
 #ICD10
@@ -471,71 +479,37 @@ saveRDS(CollectedData,file="ProcessedData/ProceduresDiag.rds")
 # 'InitialReport_publicNHSDigital.Rmd'
 
 
-# Look at alt codes numbers ---------------------------------------------------
+# Extract Age information - is it only redacted for X15?
+# Answer no: but not redacted for that many procedures
+
+hosp <- tibble(readxl::read_xlsx("NHSDocuments/hosp-epis-stat-admi-proc-2020-21-tab.xlsx",
+                                 sheet = 4)) %>% set_colnames(c("codes",c(1:49)))
+
+header_prov <- hosp[8,]
+header_rfriendly <- c("Code","Description",	"T1",	"T2",	"T3",	"T4","T5",
+                      "FinEpisodes","Admissions","GenderMale","GenderFemale","GenderUnknown",
+                      "Emergency","WaitingList","Planned","OtherAdmission",	"MeanWaiting","MedianWaiting",
+                      "MeanStay","MedianStay","MeanAge","Age0",	"Age1to4","Age5to9","Age10to14",
+                      "Age15","Age16","Age17","Age18","Age19","Age20to24",
+                      "Age25to29","Age30to34",	"Age35to39","Age40to44","Age45to49","Age50to54",
+                      "Age55to59","Age60to64","Age65to69","Age70to74","Aget75to79",
+                      "Age80to84","Age85to89","Age90plus","DayCase","FCEBedDays",
+                      "ZeroBedEmergency","ZeroBedElective","ZeroBedOther")
+
+EmptyAge <- hosp[c(13:c(dim(hosp)[1] -13)),] %>%
+  set_names(header_rfriendly) %>%
+  select(Code,Description,FinEpisodes,MeanAge) %>%
+  filter(is.na(MeanAge))
 
 
-altprocbytype <- CollectedData %>% filter(type=="AltProcedures") %>%
-  select(relevantcol) %>%
-  mutate(across(c("FinEpisodes","GenderMale","GenderFemale","GenderUnknown","MedianWaiting"),as.numeric)) %>%
-  replace_na(list(GenderFemale=0,GenderUnknown=0)) %>%
-  mutate(NotProvided = FinEpisodes - GenderMale - GenderFemale -GenderUnknown) %>%
-
-  pivot_longer(cols=c("GenderMale","GenderFemale","GenderUnknown","NotProvided"),names_to="gender",values_to="value") %>%
-  mutate(GroupCode = case_when(Code %in% mastectomyproc ~ "Mastectomy",
-                               Code %in% phalloplastyproc ~ "Phalloplasty",
-                               Code %in% hysterproc ~ "Hysterectomy",
-                               Code %in% orchidectomyproc ~ "Orchidectomy",
-                               Code %in% penectomyproc ~ "Penectomy",
-                               Code %in% vagplasty ~ "Vaginoplasty",
-                               TRUE ~ "NA")) %>%
-  group_by(year,GroupCode,gender) %>%
-  mutate(value = as.numeric(value),
-         FinEpisodes = as.numeric(FinEpisodes)) %>%
-  summarize(totalep = sum(FinEpisodes,na.rm=T),
-            sumvalue = sum(value,na.rm=T)) %>%
-  mutate(gender= factor(gender,levels=rev(c("GenderMale","GenderUnknown","GenderFemale","NotProvided")),
-                        labels=rev(c("Male","Unknown","Female","N/A")))) %>%
-  mutate(GroupCode = factor(GroupCode,levels= c("Mastectomy","Phalloplasty","Hysterectomy",
-                                                "Orchidectomy","Penectomy","Vaginoplasty"),
-                            labels=c("Mastectomy","Phalloplasty","Hysterectomy",
-                                     "Orchidectomy","Penectomy","Vaginoplasty")))
+# Extract Age diagnosis:
+# Redaction?
 
 
-altproccodes <- taltprocbytype %>% filter((GroupCode %in% c("Mastectomy","Hysterectomy","Phalloplasty") & gender %in% c("Male","Unknown")) |
-                           (GroupCode %in% c("Orchidectomy","Penectomy","Vaginoplasty") & gender %in% c("Female","Unknown","N/A")))
+diag <- tibble(readxl::read_xlsx("NHSDocuments/hosp-epis-stat-admi-diag-2020-21-tab.xlsx",
+                                 sheet = 4)) %>% set_colnames(c("codes",c(1:49)))
 
-altproc_bytype<-ggplot(altproccodes, aes(x = sumvalue, y= year, fill = gender,label=ifelse(sumvalue == 0, "",sumvalue))) +
-  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
-  #          fill="grey",color="black",stat="identity")+
-  facet_wrap(.~GroupCode,scales = "free",nrow=2)+
-  geom_bar(stat="identity",color="black")+
-  geom_text(size = 3, position = position_stack(vjust = 0.5))+
-
-  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
-  #          fill="transparent",color="black",stat="identity")+
-
-  scale_y_discrete(labels = yearlabels,name="Period")+
-  scale_x_continuous(name="Finished Consultant Episodes")+
-  #coord_flip() +
-  scale_fill_manual(name="Gender Marker",values=c("#FC8D62","#E78AC3","#66C2A5","#8DA0CB")) +
-  theme_bw()
-
-
-
-WaitingTimesbytype <- ggplot(totalprocbytype %>% select(year,Code,MedianWaiting) %>% distinct() ,
-                             aes(x = MedianWaiting, y= year,
-                                 label=ifelse(MedianWaiting == 0, "",round(MedianWaiting,1)))) +
-  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
-  #          fill="grey",color="black",stat="identity")+
-  facet_grid(.~Code,scales = "free")+
-  geom_bar(stat="identity",color="black",fill="#FFD92F",alpha=0.5 )+
-  geom_text(size = 3, position = position_stack(vjust = 0.5))+
-
-  # geom_bar(data=totaldiag %>% filter(gender=="Male"), aes(x=totalep,y=year),
-  #          fill="transparent",color="black",stat="identity")+
-
-  scale_y_discrete(labels = yearlabels,name="Period")+
-  scale_x_continuous(name="Median Waiting Time (in weeks)")+
-  #coord_flip() +
-
-  theme_bw()
+EmptyAge <- diag[c(13:c(dim(diag)[1] -13)),] %>%
+  set_names(header_rfriendly)  %>%
+  select(Code,Description,FinEpisodes,MeanAge) %>%
+  filter(is.na(MeanAge))
