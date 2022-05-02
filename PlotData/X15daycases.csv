@@ -1,0 +1,141 @@
+"","year","type","Code","FinEpisodes","MedianStay","MedianWaiting","DayCases","number","percentage"
+"1","2011to2012","Procedures","X15.1
+Male to female",145,7,139,"Day Case",0,0
+"2","2011to2012","Procedures","X15.1
+Male to female",145,7,139,"No Day Case",145,100
+"3","2011to2012","Procedures","X15.2
+Female to male",1,0,0,"Day Case",0,0
+"4","2011to2012","Procedures","X15.2
+Female to male",1,0,0,"No Day Case",1,100
+"5","2011to2012","Procedures","X15.8
+Other",5,2,93,"Day Case",3,60
+"6","2011to2012","Procedures","X15.8
+Other",5,2,93,"No Day Case",2,40
+"7","2012to2013","Procedures","X15.1
+Male to female",160,7,151,"Day Case",0,0
+"8","2012to2013","Procedures","X15.1
+Male to female",160,7,151,"No Day Case",160,100
+"9","2012to2013","Procedures","X15.2
+Female to male",4,2,168,"Day Case",0,0
+"10","2012to2013","Procedures","X15.2
+Female to male",4,2,168,"No Day Case",4,100
+"11","2012to2013","Procedures","X15.8
+Other",2,2,172,"Day Case",1,50
+"12","2012to2013","Procedures","X15.8
+Other",2,2,172,"No Day Case",1,50
+"13","2013to2014","Procedures","X15.1
+Male to female",171,7,182.5,"Day Case",1,0.584795321637427
+"14","2013to2014","Procedures","X15.1
+Male to female",171,7,182.5,"No Day Case",170,99.4152046783626
+"15","2013to2014","Procedures","X15.2
+Female to male",1,1,57,"Day Case",0,0
+"16","2013to2014","Procedures","X15.2
+Female to male",1,1,57,"No Day Case",1,100
+"17","2013to2014","Procedures","X15.8
+Other",3,2,57.5,"Day Case",0,0
+"18","2013to2014","Procedures","X15.8
+Other",3,2,57.5,"No Day Case",3,100
+"19","2013to2014","Procedures","X15.9
+Unspecified",1,NA,2,"Day Case",0,0
+"20","2013to2014","Procedures","X15.9
+Unspecified",1,NA,2,"No Day Case",1,100
+"21","2014to2015","Procedures","X15.1
+Male to female",72,8,186,"Day Case",0,0
+"22","2014to2015","Procedures","X15.1
+Male to female",72,8,186,"No Day Case",72,100
+"23","2014to2015","Procedures","X15.2
+Female to male",2,2,70,"Day Case",0,0
+"24","2014to2015","Procedures","X15.2
+Female to male",2,2,70,"No Day Case",2,100
+"25","2014to2015","Procedures","X15.8
+Other",113,8,250.5,"Day Case",0,0
+"26","2014to2015","Procedures","X15.8
+Other",113,8,250.5,"No Day Case",113,100
+"27","2014to2015","Procedures","X15.9
+Unspecified",4,7.5,204,"Day Case",0,0
+"28","2014to2015","Procedures","X15.9
+Unspecified",4,7.5,204,"No Day Case",4,100
+"29","2015to2016","Procedures","X15.1
+Male to female",87,8,252,"Day Case",0,0
+"30","2015to2016","Procedures","X15.1
+Male to female",87,8,252,"No Day Case",87,100
+"31","2015to2016","Procedures","X15.2
+Female to male",8,3,147,"Day Case",0,0
+"32","2015to2016","Procedures","X15.2
+Female to male",8,3,147,"No Day Case",8,100
+"33","2015to2016","Procedures","X15.8
+Other",92,8,236,"Day Case",0,0
+"34","2015to2016","Procedures","X15.8
+Other",92,8,236,"No Day Case",92,100
+"35","2015to2016","Procedures","X15.9
+Unspecified",1,NA,113,"Day Case",1,100
+"36","2015to2016","Procedures","X15.9
+Unspecified",1,NA,113,"No Day Case",0,0
+"37","2016to2017","Procedures","X15.1
+Male to female",119,8,238,"Day Case",0,0
+"38","2016to2017","Procedures","X15.1
+Male to female",119,8,238,"No Day Case",119,100
+"39","2016to2017","Procedures","X15.2
+Female to male",5,1,244,"Day Case",0,0
+"40","2016to2017","Procedures","X15.2
+Female to male",5,1,244,"No Day Case",5,100
+"41","2016to2017","Procedures","X15.8
+Other",79,8,120,"Day Case",1,1.26582278481013
+"42","2016to2017","Procedures","X15.8
+Other",79,8,120,"No Day Case",78,98.7341772151899
+"43","2017to2018","Procedures","X15.1
+Male to female",132,7,276,"Day Case",1,0.757575757575758
+"44","2017to2018","Procedures","X15.1
+Male to female",132,7,276,"No Day Case",131,99.2424242424242
+"45","2017to2018","Procedures","X15.2
+Female to male",5,1,125,"Day Case",0,0
+"46","2017to2018","Procedures","X15.2
+Female to male",5,1,125,"No Day Case",5,100
+"47","2017to2018","Procedures","X15.8
+Other",88,7,87,"Day Case",1,1.13636363636364
+"48","2017to2018","Procedures","X15.8
+Other",88,7,87,"No Day Case",87,98.8636363636364
+"49","2017to2018","Procedures","X15.9
+Unspecified",2,7,95,"Day Case",0,0
+"50","2017to2018","Procedures","X15.9
+Unspecified",2,7,95,"No Day Case",2,100
+"51","2018to2019","Procedures","X15.1
+Male to female",201,7,125,"Day Case",0,0
+"52","2018to2019","Procedures","X15.1
+Male to female",201,7,125,"No Day Case",201,100
+"53","2018to2019","Procedures","X15.2
+Female to male",15,2,269,"Day Case",0,0
+"54","2018to2019","Procedures","X15.2
+Female to male",15,2,269,"No Day Case",15,100
+"55","2018to2019","Procedures","X15.8
+Other",73,7,83,"Day Case",0,0
+"56","2018to2019","Procedures","X15.8
+Other",73,7,83,"No Day Case",73,100
+"57","2018to2019","Procedures","X15.9
+Unspecified",2,8,NA,"Day Case",0,0
+"58","2018to2019","Procedures","X15.9
+Unspecified",2,8,NA,"No Day Case",2,100
+"59","2019to2020","Procedures","X15.1
+Male to female",247,7,58,"Day Case",1,0.404858299595142
+"60","2019to2020","Procedures","X15.1
+Male to female",247,7,58,"No Day Case",246,99.5951417004049
+"61","2019to2020","Procedures","X15.2
+Female to male",12,2,198,"Day Case",0,0
+"62","2019to2020","Procedures","X15.2
+Female to male",12,2,198,"No Day Case",12,100
+"63","2019to2020","Procedures","X15.8
+Other",79,7,71,"Day Case",1,1.26582278481013
+"64","2019to2020","Procedures","X15.8
+Other",79,7,71,"No Day Case",78,98.7341772151899
+"65","2020to2021","Procedures","X15.1
+Male to female",129,7,398,"Day Case",0,0
+"66","2020to2021","Procedures","X15.1
+Male to female",129,7,398,"No Day Case",129,100
+"67","2020to2021","Procedures","X15.2
+Female to male",3,1,250,"Day Case",0,0
+"68","2020to2021","Procedures","X15.2
+Female to male",3,1,250,"No Day Case",3,100
+"69","2020to2021","Procedures","X15.8
+Other",20,7,268,"Day Case",0,0
+"70","2020to2021","Procedures","X15.8
+Other",20,7,268,"No Day Case",20,100

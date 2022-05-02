@@ -1,0 +1,481 @@
+"","type","year","gender","sums","ofall","ofexp","classifydata","value"
+"1","F64 diagnoses","2011-2012","Gender: Female",NA,NA,NA,"Procedure expected",0
+"2","F64 diagnoses","2011-2012","Gender: Female",NA,NA,NA,"No procedure expected",0
+"3","F64 diagnoses","2011-2012","Gender: Female",NA,NA,NA,"X15 procedure recorded",0
+"4","F64 diagnoses","2011-2012","Gender: Female",NA,NA,NA,"Other procedure recorded",0
+"5","F64 diagnoses","2011-2012","Gender: Male",NA,1.13636363636364,1.9047619047619,"Procedure expected",105
+"6","F64 diagnoses","2011-2012","Gender: Male",NA,1.13636363636364,1.9047619047619,"No procedure expected",71
+"7","F64 diagnoses","2011-2012","Gender: Male",NA,1.13636363636364,1.9047619047619,"X15 procedure recorded",0
+"8","F64 diagnoses","2011-2012","Gender: Male",NA,1.13636363636364,1.9047619047619,"Other procedure recorded",0
+"9","F64 diagnoses","2011-2012","Gender: Unknown",NA,NA,NA,"Procedure expected",0
+"10","F64 diagnoses","2011-2012","Gender: Unknown",NA,NA,NA,"No procedure expected",0
+"11","F64 diagnoses","2011-2012","Gender: Unknown",NA,NA,NA,"X15 procedure recorded",0
+"12","F64 diagnoses","2011-2012","Gender: Unknown",NA,NA,NA,"Other procedure recorded",0
+"13","F64 diagnoses","2011-2012","N/A",NA,44.3452380952381,74.1293532338308,"Procedure expected",201
+"14","F64 diagnoses","2011-2012","N/A",NA,44.3452380952381,74.1293532338308,"No procedure expected",135
+"15","F64 diagnoses","2011-2012","N/A",NA,44.3452380952381,74.1293532338308,"X15 procedure recorded",0
+"16","F64 diagnoses","2011-2012","N/A",NA,44.3452380952381,74.1293532338308,"Other procedure recorded",0
+"17","F64 diagnoses","2012-2013","Gender: Female",NA,56.0553633217993,93.6416184971098,"Procedure expected",173
+"18","F64 diagnoses","2012-2013","Gender: Female",NA,56.0553633217993,93.6416184971098,"No procedure expected",116
+"19","F64 diagnoses","2012-2013","Gender: Female",NA,56.0553633217993,93.6416184971098,"X15 procedure recorded",0
+"20","F64 diagnoses","2012-2013","Gender: Female",NA,56.0553633217993,93.6416184971098,"Other procedure recorded",0
+"21","F64 diagnoses","2012-2013","Gender: Male",NA,1.86046511627907,3.07692307692308,"Procedure expected",130
+"22","F64 diagnoses","2012-2013","Gender: Male",NA,1.86046511627907,3.07692307692308,"No procedure expected",85
+"23","F64 diagnoses","2012-2013","Gender: Male",NA,1.86046511627907,3.07692307692308,"X15 procedure recorded",0
+"24","F64 diagnoses","2012-2013","Gender: Male",NA,1.86046511627907,3.07692307692308,"Other procedure recorded",0
+"25","F64 diagnoses","2012-2013","Gender: Unknown",NA,0,0,"Procedure expected",55
+"26","F64 diagnoses","2012-2013","Gender: Unknown",NA,0,0,"No procedure expected",36
+"27","F64 diagnoses","2012-2013","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"28","F64 diagnoses","2012-2013","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"29","F64 diagnoses","2012-2013","N/A",NA,NA,NA,"Procedure expected",0
+"30","F64 diagnoses","2012-2013","N/A",NA,NA,NA,"No procedure expected",0
+"31","F64 diagnoses","2012-2013","N/A",NA,NA,NA,"X15 procedure recorded",0
+"32","F64 diagnoses","2012-2013","N/A",NA,NA,NA,"Other procedure recorded",0
+"33","F64 diagnoses","2013-2014","Gender: Female",NA,59.1216216216216,97.2222222222222,"Procedure expected",180
+"34","F64 diagnoses","2013-2014","Gender: Female",NA,59.1216216216216,97.2222222222222,"No procedure expected",116
+"35","F64 diagnoses","2013-2014","Gender: Female",NA,59.1216216216216,97.2222222222222,"X15 procedure recorded",0
+"36","F64 diagnoses","2013-2014","Gender: Female",NA,59.1216216216216,97.2222222222222,"Other procedure recorded",0
+"37","F64 diagnoses","2013-2014","Gender: Male",NA,0.408163265306122,0.671140939597315,"Procedure expected",149
+"38","F64 diagnoses","2013-2014","Gender: Male",NA,0.408163265306122,0.671140939597315,"No procedure expected",96
+"39","F64 diagnoses","2013-2014","Gender: Male",NA,0.408163265306122,0.671140939597315,"X15 procedure recorded",0
+"40","F64 diagnoses","2013-2014","Gender: Male",NA,0.408163265306122,0.671140939597315,"Other procedure recorded",0
+"41","F64 diagnoses","2013-2014","Gender: Unknown",NA,0,0,"Procedure expected",47
+"42","F64 diagnoses","2013-2014","Gender: Unknown",NA,0,0,"No procedure expected",31
+"43","F64 diagnoses","2013-2014","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"44","F64 diagnoses","2013-2014","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"45","F64 diagnoses","2013-2014","N/A",NA,NA,NA,"Procedure expected",0
+"46","F64 diagnoses","2013-2014","N/A",NA,NA,NA,"No procedure expected",0
+"47","F64 diagnoses","2013-2014","N/A",NA,NA,NA,"X15 procedure recorded",0
+"48","F64 diagnoses","2013-2014","N/A",NA,NA,NA,"Other procedure recorded",0
+"49","F64 diagnoses","2014-2015","Gender: Female",NA,66.4285714285714,109.411764705882,"Procedure expected",170
+"50","F64 diagnoses","2014-2015","Gender: Female",NA,66.4285714285714,109.411764705882,"No procedure expected",110
+"51","F64 diagnoses","2014-2015","Gender: Female",NA,66.4285714285714,109.411764705882,"X15 procedure recorded",0
+"52","F64 diagnoses","2014-2015","Gender: Female",NA,66.4285714285714,109.411764705882,"Other procedure recorded",0
+"53","F64 diagnoses","2014-2015","Gender: Male",NA,1.18343195266272,1.95121951219512,"Procedure expected",205
+"54","F64 diagnoses","2014-2015","Gender: Male",NA,1.18343195266272,1.95121951219512,"No procedure expected",133
+"55","F64 diagnoses","2014-2015","Gender: Male",NA,1.18343195266272,1.95121951219512,"X15 procedure recorded",0
+"56","F64 diagnoses","2014-2015","Gender: Male",NA,1.18343195266272,1.95121951219512,"Other procedure recorded",0
+"57","F64 diagnoses","2014-2015","Gender: Unknown",NA,0.50761421319797,0.840336134453782,"Procedure expected",119
+"58","F64 diagnoses","2014-2015","Gender: Unknown",NA,0.50761421319797,0.840336134453782,"No procedure expected",78
+"59","F64 diagnoses","2014-2015","Gender: Unknown",NA,0.50761421319797,0.840336134453782,"X15 procedure recorded",0
+"60","F64 diagnoses","2014-2015","Gender: Unknown",NA,0.50761421319797,0.840336134453782,"Other procedure recorded",0
+"61","F64 diagnoses","2014-2015","N/A",NA,NA,NA,"Procedure expected",0
+"62","F64 diagnoses","2014-2015","N/A",NA,NA,NA,"No procedure expected",0
+"63","F64 diagnoses","2014-2015","N/A",NA,NA,NA,"X15 procedure recorded",0
+"64","F64 diagnoses","2014-2015","N/A",NA,NA,NA,"Other procedure recorded",0
+"65","F64 diagnoses","2015-2016","Gender: Female",NA,61,100.549450549451,"Procedure expected",182
+"66","F64 diagnoses","2015-2016","Gender: Female",NA,61,100.549450549451,"No procedure expected",118
+"67","F64 diagnoses","2015-2016","Gender: Female",NA,61,100.549450549451,"X15 procedure recorded",0
+"68","F64 diagnoses","2015-2016","Gender: Female",NA,61,100.549450549451,"Other procedure recorded",0
+"69","F64 diagnoses","2015-2016","Gender: Male",NA,1.21951219512195,2.01612903225806,"Procedure expected",248
+"70","F64 diagnoses","2015-2016","Gender: Male",NA,1.21951219512195,2.01612903225806,"No procedure expected",162
+"71","F64 diagnoses","2015-2016","Gender: Male",NA,1.21951219512195,2.01612903225806,"X15 procedure recorded",0
+"72","F64 diagnoses","2015-2016","Gender: Male",NA,1.21951219512195,2.01612903225806,"Other procedure recorded",0
+"73","F64 diagnoses","2015-2016","Gender: Unknown",NA,0,0,"Procedure expected",130
+"74","F64 diagnoses","2015-2016","Gender: Unknown",NA,0,0,"No procedure expected",85
+"75","F64 diagnoses","2015-2016","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"76","F64 diagnoses","2015-2016","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"77","F64 diagnoses","2015-2016","N/A",NA,NA,NA,"Procedure expected",0
+"78","F64 diagnoses","2015-2016","N/A",NA,NA,NA,"No procedure expected",0
+"79","F64 diagnoses","2015-2016","N/A",NA,NA,NA,"X15 procedure recorded",0
+"80","F64 diagnoses","2015-2016","N/A",NA,NA,NA,"Other procedure recorded",0
+"81","F64 diagnoses","2016-2017","Gender: Female",NA,62.5,103.723404255319,"Procedure expected",188
+"82","F64 diagnoses","2016-2017","Gender: Female",NA,62.5,103.723404255319,"No procedure expected",124
+"83","F64 diagnoses","2016-2017","Gender: Female",NA,62.5,103.723404255319,"X15 procedure recorded",0
+"84","F64 diagnoses","2016-2017","Gender: Female",NA,62.5,103.723404255319,"Other procedure recorded",0
+"85","F64 diagnoses","2016-2017","Gender: Male",NA,1.62932790224033,2.7027027027027,"Procedure expected",296
+"86","F64 diagnoses","2016-2017","Gender: Male",NA,1.62932790224033,2.7027027027027,"No procedure expected",195
+"87","F64 diagnoses","2016-2017","Gender: Male",NA,1.62932790224033,2.7027027027027,"X15 procedure recorded",0
+"88","F64 diagnoses","2016-2017","Gender: Male",NA,1.62932790224033,2.7027027027027,"Other procedure recorded",0
+"89","F64 diagnoses","2016-2017","Gender: Unknown",NA,0,0,"Procedure expected",170
+"90","F64 diagnoses","2016-2017","Gender: Unknown",NA,0,0,"No procedure expected",111
+"91","F64 diagnoses","2016-2017","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"92","F64 diagnoses","2016-2017","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"93","F64 diagnoses","2016-2017","N/A",NA,NA,NA,"Procedure expected",0
+"94","F64 diagnoses","2016-2017","N/A",NA,NA,NA,"No procedure expected",0
+"95","F64 diagnoses","2016-2017","N/A",NA,NA,NA,"X15 procedure recorded",0
+"96","F64 diagnoses","2016-2017","N/A",NA,NA,NA,"Other procedure recorded",0
+"97","F64 diagnoses","2017-2018","Gender: Female",NA,57.8378378378378,97.2727272727273,"Procedure expected",220
+"98","F64 diagnoses","2017-2018","Gender: Female",NA,57.8378378378378,97.2727272727273,"No procedure expected",150
+"99","F64 diagnoses","2017-2018","Gender: Female",NA,57.8378378378378,97.2727272727273,"X15 procedure recorded",0
+"100","F64 diagnoses","2017-2018","Gender: Female",NA,57.8378378378378,97.2727272727273,"Other procedure recorded",0
+"101","F64 diagnoses","2017-2018","Gender: Male",NA,2.14168039538715,3.61111111111111,"Procedure expected",360
+"102","F64 diagnoses","2017-2018","Gender: Male",NA,2.14168039538715,3.61111111111111,"No procedure expected",247
+"103","F64 diagnoses","2017-2018","Gender: Male",NA,2.14168039538715,3.61111111111111,"X15 procedure recorded",0
+"104","F64 diagnoses","2017-2018","Gender: Male",NA,2.14168039538715,3.61111111111111,"Other procedure recorded",0
+"105","F64 diagnoses","2017-2018","Gender: Unknown",NA,0,0,"Procedure expected",214
+"106","F64 diagnoses","2017-2018","Gender: Unknown",NA,0,0,"No procedure expected",144
+"107","F64 diagnoses","2017-2018","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"108","F64 diagnoses","2017-2018","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"109","F64 diagnoses","2017-2018","N/A",NA,NA,NA,"Procedure expected",0
+"110","F64 diagnoses","2017-2018","N/A",NA,NA,NA,"No procedure expected",0
+"111","F64 diagnoses","2017-2018","N/A",NA,NA,NA,"X15 procedure recorded",0
+"112","F64 diagnoses","2017-2018","N/A",NA,NA,NA,"Other procedure recorded",0
+"113","F64 diagnoses","2018-2019","Gender: Female",NA,56.198347107438,96.113074204947,"Procedure expected",283
+"114","F64 diagnoses","2018-2019","Gender: Female",NA,56.198347107438,96.113074204947,"No procedure expected",201
+"115","F64 diagnoses","2018-2019","Gender: Female",NA,56.198347107438,96.113074204947,"X15 procedure recorded",0
+"116","F64 diagnoses","2018-2019","Gender: Female",NA,56.198347107438,96.113074204947,"Other procedure recorded",0
+"117","F64 diagnoses","2018-2019","Gender: Male",NA,2.45161290322581,4.18502202643172,"Procedure expected",454
+"118","F64 diagnoses","2018-2019","Gender: Male",NA,2.45161290322581,4.18502202643172,"No procedure expected",321
+"119","F64 diagnoses","2018-2019","Gender: Male",NA,2.45161290322581,4.18502202643172,"X15 procedure recorded",0
+"120","F64 diagnoses","2018-2019","Gender: Male",NA,2.45161290322581,4.18502202643172,"Other procedure recorded",0
+"121","F64 diagnoses","2018-2019","Gender: Unknown",NA,0,0,"Procedure expected",215
+"122","F64 diagnoses","2018-2019","Gender: Unknown",NA,0,0,"No procedure expected",150
+"123","F64 diagnoses","2018-2019","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"124","F64 diagnoses","2018-2019","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"125","F64 diagnoses","2018-2019","N/A",NA,NA,NA,"Procedure expected",0
+"126","F64 diagnoses","2018-2019","N/A",NA,NA,NA,"No procedure expected",0
+"127","F64 diagnoses","2018-2019","N/A",NA,NA,NA,"X15 procedure recorded",0
+"128","F64 diagnoses","2018-2019","N/A",NA,NA,NA,"Other procedure recorded",0
+"129","F64 diagnoses","2019-2020","Gender: Female",NA,54.637436762226,93.1034482758621,"Procedure expected",348
+"130","F64 diagnoses","2019-2020","Gender: Female",NA,54.637436762226,93.1034482758621,"No procedure expected",245
+"131","F64 diagnoses","2019-2020","Gender: Female",NA,54.637436762226,93.1034482758621,"X15 procedure recorded",0
+"132","F64 diagnoses","2019-2020","Gender: Female",NA,54.637436762226,93.1034482758621,"Other procedure recorded",0
+"133","F64 diagnoses","2019-2020","Gender: Male",NA,1.83006535947712,3.11111111111111,"Procedure expected",450
+"134","F64 diagnoses","2019-2020","Gender: Male",NA,1.83006535947712,3.11111111111111,"No procedure expected",315
+"135","F64 diagnoses","2019-2020","Gender: Male",NA,1.83006535947712,3.11111111111111,"X15 procedure recorded",0
+"136","F64 diagnoses","2019-2020","Gender: Male",NA,1.83006535947712,3.11111111111111,"Other procedure recorded",0
+"137","F64 diagnoses","2019-2020","Gender: Unknown",NA,0,0,"Procedure expected",165
+"138","F64 diagnoses","2019-2020","Gender: Unknown",NA,0,0,"No procedure expected",115
+"139","F64 diagnoses","2019-2020","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"140","F64 diagnoses","2019-2020","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"141","F64 diagnoses","2019-2020","N/A",NA,NA,NA,"Procedure expected",0
+"142","F64 diagnoses","2019-2020","N/A",NA,NA,NA,"No procedure expected",0
+"143","F64 diagnoses","2019-2020","N/A",NA,NA,NA,"X15 procedure recorded",0
+"144","F64 diagnoses","2019-2020","N/A",NA,NA,NA,"Other procedure recorded",0
+"145","F64 diagnoses","2020-2021","Gender: Female",NA,51.7482517482517,91.9254658385093,"Procedure expected",161
+"146","F64 diagnoses","2020-2021","Gender: Female",NA,51.7482517482517,91.9254658385093,"No procedure expected",125
+"147","F64 diagnoses","2020-2021","Gender: Female",NA,51.7482517482517,91.9254658385093,"X15 procedure recorded",0
+"148","F64 diagnoses","2020-2021","Gender: Female",NA,51.7482517482517,91.9254658385093,"Other procedure recorded",0
+"149","F64 diagnoses","2020-2021","Gender: Male",NA,1.49812734082397,2.66666666666667,"Procedure expected",150
+"150","F64 diagnoses","2020-2021","Gender: Male",NA,1.49812734082397,2.66666666666667,"No procedure expected",117
+"151","F64 diagnoses","2020-2021","Gender: Male",NA,1.49812734082397,2.66666666666667,"X15 procedure recorded",0
+"152","F64 diagnoses","2020-2021","Gender: Male",NA,1.49812734082397,2.66666666666667,"Other procedure recorded",0
+"153","F64 diagnoses","2020-2021","Gender: Unknown",NA,0,0,"Procedure expected",99
+"154","F64 diagnoses","2020-2021","Gender: Unknown",NA,0,0,"No procedure expected",77
+"155","F64 diagnoses","2020-2021","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"156","F64 diagnoses","2020-2021","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"157","F64 diagnoses","2020-2021","N/A",NA,NA,NA,"Procedure expected",0
+"158","F64 diagnoses","2020-2021","N/A",NA,NA,NA,"No procedure expected",0
+"159","F64 diagnoses","2020-2021","N/A",NA,NA,NA,"X15 procedure recorded",0
+"160","F64 diagnoses","2020-2021","N/A",NA,NA,NA,"Other procedure recorded",0
+"161","Procedures","2011-2012","Gender: Female",NA,NA,NA,"Procedure expected",0
+"162","Procedures","2011-2012","Gender: Female",NA,NA,NA,"No procedure expected",0
+"163","Procedures","2011-2012","Gender: Female",NA,NA,NA,"X15 procedure recorded",0
+"164","Procedures","2011-2012","Gender: Female",NA,NA,NA,"Other procedure recorded",0
+"165","Procedures","2011-2012","Gender: Male",NA,1.13636363636364,1.9047619047619,"Procedure expected",0
+"166","Procedures","2011-2012","Gender: Male",NA,1.13636363636364,1.9047619047619,"No procedure expected",0
+"167","Procedures","2011-2012","Gender: Male",NA,1.13636363636364,1.9047619047619,"X15 procedure recorded",2
+"168","Procedures","2011-2012","Gender: Male",NA,1.13636363636364,1.9047619047619,"Other procedure recorded",0
+"169","Procedures","2011-2012","Gender: Unknown",NA,NA,NA,"Procedure expected",0
+"170","Procedures","2011-2012","Gender: Unknown",NA,NA,NA,"No procedure expected",0
+"171","Procedures","2011-2012","Gender: Unknown",NA,NA,NA,"X15 procedure recorded",0
+"172","Procedures","2011-2012","Gender: Unknown",NA,NA,NA,"Other procedure recorded",0
+"173","Procedures","2011-2012","N/A",NA,44.3452380952381,74.1293532338308,"Procedure expected",0
+"174","Procedures","2011-2012","N/A",NA,44.3452380952381,74.1293532338308,"No procedure expected",0
+"175","Procedures","2011-2012","N/A",NA,44.3452380952381,74.1293532338308,"X15 procedure recorded",149
+"176","Procedures","2011-2012","N/A",NA,44.3452380952381,74.1293532338308,"Other procedure recorded",0
+"177","Procedures","2012-2013","Gender: Female",NA,56.0553633217993,93.6416184971098,"Procedure expected",0
+"178","Procedures","2012-2013","Gender: Female",NA,56.0553633217993,93.6416184971098,"No procedure expected",0
+"179","Procedures","2012-2013","Gender: Female",NA,56.0553633217993,93.6416184971098,"X15 procedure recorded",162
+"180","Procedures","2012-2013","Gender: Female",NA,56.0553633217993,93.6416184971098,"Other procedure recorded",0
+"181","Procedures","2012-2013","Gender: Male",NA,1.86046511627907,3.07692307692308,"Procedure expected",0
+"182","Procedures","2012-2013","Gender: Male",NA,1.86046511627907,3.07692307692308,"No procedure expected",0
+"183","Procedures","2012-2013","Gender: Male",NA,1.86046511627907,3.07692307692308,"X15 procedure recorded",4
+"184","Procedures","2012-2013","Gender: Male",NA,1.86046511627907,3.07692307692308,"Other procedure recorded",0
+"185","Procedures","2012-2013","Gender: Unknown",NA,0,0,"Procedure expected",0
+"186","Procedures","2012-2013","Gender: Unknown",NA,0,0,"No procedure expected",0
+"187","Procedures","2012-2013","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"188","Procedures","2012-2013","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"189","Procedures","2012-2013","N/A",NA,NA,NA,"Procedure expected",0
+"190","Procedures","2012-2013","N/A",NA,NA,NA,"No procedure expected",0
+"191","Procedures","2012-2013","N/A",NA,NA,NA,"X15 procedure recorded",0
+"192","Procedures","2012-2013","N/A",NA,NA,NA,"Other procedure recorded",0
+"193","Procedures","2013-2014","Gender: Female",NA,59.1216216216216,97.2222222222222,"Procedure expected",0
+"194","Procedures","2013-2014","Gender: Female",NA,59.1216216216216,97.2222222222222,"No procedure expected",0
+"195","Procedures","2013-2014","Gender: Female",NA,59.1216216216216,97.2222222222222,"X15 procedure recorded",175
+"196","Procedures","2013-2014","Gender: Female",NA,59.1216216216216,97.2222222222222,"Other procedure recorded",0
+"197","Procedures","2013-2014","Gender: Male",NA,0.408163265306122,0.671140939597315,"Procedure expected",0
+"198","Procedures","2013-2014","Gender: Male",NA,0.408163265306122,0.671140939597315,"No procedure expected",0
+"199","Procedures","2013-2014","Gender: Male",NA,0.408163265306122,0.671140939597315,"X15 procedure recorded",1
+"200","Procedures","2013-2014","Gender: Male",NA,0.408163265306122,0.671140939597315,"Other procedure recorded",0
+"201","Procedures","2013-2014","Gender: Unknown",NA,0,0,"Procedure expected",0
+"202","Procedures","2013-2014","Gender: Unknown",NA,0,0,"No procedure expected",0
+"203","Procedures","2013-2014","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"204","Procedures","2013-2014","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"205","Procedures","2013-2014","N/A",NA,NA,NA,"Procedure expected",0
+"206","Procedures","2013-2014","N/A",NA,NA,NA,"No procedure expected",0
+"207","Procedures","2013-2014","N/A",NA,NA,NA,"X15 procedure recorded",0
+"208","Procedures","2013-2014","N/A",NA,NA,NA,"Other procedure recorded",0
+"209","Procedures","2014-2015","Gender: Female",NA,66.4285714285714,109.411764705882,"Procedure expected",0
+"210","Procedures","2014-2015","Gender: Female",NA,66.4285714285714,109.411764705882,"No procedure expected",0
+"211","Procedures","2014-2015","Gender: Female",NA,66.4285714285714,109.411764705882,"X15 procedure recorded",186
+"212","Procedures","2014-2015","Gender: Female",NA,66.4285714285714,109.411764705882,"Other procedure recorded",0
+"213","Procedures","2014-2015","Gender: Male",NA,1.18343195266272,1.95121951219512,"Procedure expected",0
+"214","Procedures","2014-2015","Gender: Male",NA,1.18343195266272,1.95121951219512,"No procedure expected",0
+"215","Procedures","2014-2015","Gender: Male",NA,1.18343195266272,1.95121951219512,"X15 procedure recorded",4
+"216","Procedures","2014-2015","Gender: Male",NA,1.18343195266272,1.95121951219512,"Other procedure recorded",0
+"217","Procedures","2014-2015","Gender: Unknown",NA,0.50761421319797,0.840336134453782,"Procedure expected",0
+"218","Procedures","2014-2015","Gender: Unknown",NA,0.50761421319797,0.840336134453782,"No procedure expected",0
+"219","Procedures","2014-2015","Gender: Unknown",NA,0.50761421319797,0.840336134453782,"X15 procedure recorded",1
+"220","Procedures","2014-2015","Gender: Unknown",NA,0.50761421319797,0.840336134453782,"Other procedure recorded",0
+"221","Procedures","2014-2015","N/A",NA,NA,NA,"Procedure expected",0
+"222","Procedures","2014-2015","N/A",NA,NA,NA,"No procedure expected",0
+"223","Procedures","2014-2015","N/A",NA,NA,NA,"X15 procedure recorded",0
+"224","Procedures","2014-2015","N/A",NA,NA,NA,"Other procedure recorded",0
+"225","Procedures","2015-2016","Gender: Female",NA,61,100.549450549451,"Procedure expected",0
+"226","Procedures","2015-2016","Gender: Female",NA,61,100.549450549451,"No procedure expected",0
+"227","Procedures","2015-2016","Gender: Female",NA,61,100.549450549451,"X15 procedure recorded",183
+"228","Procedures","2015-2016","Gender: Female",NA,61,100.549450549451,"Other procedure recorded",0
+"229","Procedures","2015-2016","Gender: Male",NA,1.21951219512195,2.01612903225806,"Procedure expected",0
+"230","Procedures","2015-2016","Gender: Male",NA,1.21951219512195,2.01612903225806,"No procedure expected",0
+"231","Procedures","2015-2016","Gender: Male",NA,1.21951219512195,2.01612903225806,"X15 procedure recorded",5
+"232","Procedures","2015-2016","Gender: Male",NA,1.21951219512195,2.01612903225806,"Other procedure recorded",0
+"233","Procedures","2015-2016","Gender: Unknown",NA,0,0,"Procedure expected",0
+"234","Procedures","2015-2016","Gender: Unknown",NA,0,0,"No procedure expected",0
+"235","Procedures","2015-2016","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"236","Procedures","2015-2016","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"237","Procedures","2015-2016","N/A",NA,NA,NA,"Procedure expected",0
+"238","Procedures","2015-2016","N/A",NA,NA,NA,"No procedure expected",0
+"239","Procedures","2015-2016","N/A",NA,NA,NA,"X15 procedure recorded",0
+"240","Procedures","2015-2016","N/A",NA,NA,NA,"Other procedure recorded",0
+"241","Procedures","2016-2017","Gender: Female",NA,62.5,103.723404255319,"Procedure expected",0
+"242","Procedures","2016-2017","Gender: Female",NA,62.5,103.723404255319,"No procedure expected",0
+"243","Procedures","2016-2017","Gender: Female",NA,62.5,103.723404255319,"X15 procedure recorded",195
+"244","Procedures","2016-2017","Gender: Female",NA,62.5,103.723404255319,"Other procedure recorded",0
+"245","Procedures","2016-2017","Gender: Male",NA,1.62932790224033,2.7027027027027,"Procedure expected",0
+"246","Procedures","2016-2017","Gender: Male",NA,1.62932790224033,2.7027027027027,"No procedure expected",0
+"247","Procedures","2016-2017","Gender: Male",NA,1.62932790224033,2.7027027027027,"X15 procedure recorded",8
+"248","Procedures","2016-2017","Gender: Male",NA,1.62932790224033,2.7027027027027,"Other procedure recorded",0
+"249","Procedures","2016-2017","Gender: Unknown",NA,0,0,"Procedure expected",0
+"250","Procedures","2016-2017","Gender: Unknown",NA,0,0,"No procedure expected",0
+"251","Procedures","2016-2017","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"252","Procedures","2016-2017","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"253","Procedures","2016-2017","N/A",NA,NA,NA,"Procedure expected",0
+"254","Procedures","2016-2017","N/A",NA,NA,NA,"No procedure expected",0
+"255","Procedures","2016-2017","N/A",NA,NA,NA,"X15 procedure recorded",0
+"256","Procedures","2016-2017","N/A",NA,NA,NA,"Other procedure recorded",0
+"257","Procedures","2017-2018","Gender: Female",NA,57.8378378378378,97.2727272727273,"Procedure expected",0
+"258","Procedures","2017-2018","Gender: Female",NA,57.8378378378378,97.2727272727273,"No procedure expected",0
+"259","Procedures","2017-2018","Gender: Female",NA,57.8378378378378,97.2727272727273,"X15 procedure recorded",214
+"260","Procedures","2017-2018","Gender: Female",NA,57.8378378378378,97.2727272727273,"Other procedure recorded",0
+"261","Procedures","2017-2018","Gender: Male",NA,2.14168039538715,3.61111111111111,"Procedure expected",0
+"262","Procedures","2017-2018","Gender: Male",NA,2.14168039538715,3.61111111111111,"No procedure expected",0
+"263","Procedures","2017-2018","Gender: Male",NA,2.14168039538715,3.61111111111111,"X15 procedure recorded",13
+"264","Procedures","2017-2018","Gender: Male",NA,2.14168039538715,3.61111111111111,"Other procedure recorded",0
+"265","Procedures","2017-2018","Gender: Unknown",NA,0,0,"Procedure expected",0
+"266","Procedures","2017-2018","Gender: Unknown",NA,0,0,"No procedure expected",0
+"267","Procedures","2017-2018","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"268","Procedures","2017-2018","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"269","Procedures","2017-2018","N/A",NA,NA,NA,"Procedure expected",0
+"270","Procedures","2017-2018","N/A",NA,NA,NA,"No procedure expected",0
+"271","Procedures","2017-2018","N/A",NA,NA,NA,"X15 procedure recorded",0
+"272","Procedures","2017-2018","N/A",NA,NA,NA,"Other procedure recorded",0
+"273","Procedures","2018-2019","Gender: Female",NA,56.198347107438,96.113074204947,"Procedure expected",0
+"274","Procedures","2018-2019","Gender: Female",NA,56.198347107438,96.113074204947,"No procedure expected",0
+"275","Procedures","2018-2019","Gender: Female",NA,56.198347107438,96.113074204947,"X15 procedure recorded",272
+"276","Procedures","2018-2019","Gender: Female",NA,56.198347107438,96.113074204947,"Other procedure recorded",0
+"277","Procedures","2018-2019","Gender: Male",NA,2.45161290322581,4.18502202643172,"Procedure expected",0
+"278","Procedures","2018-2019","Gender: Male",NA,2.45161290322581,4.18502202643172,"No procedure expected",0
+"279","Procedures","2018-2019","Gender: Male",NA,2.45161290322581,4.18502202643172,"X15 procedure recorded",19
+"280","Procedures","2018-2019","Gender: Male",NA,2.45161290322581,4.18502202643172,"Other procedure recorded",0
+"281","Procedures","2018-2019","Gender: Unknown",NA,0,0,"Procedure expected",0
+"282","Procedures","2018-2019","Gender: Unknown",NA,0,0,"No procedure expected",0
+"283","Procedures","2018-2019","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"284","Procedures","2018-2019","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"285","Procedures","2018-2019","N/A",NA,NA,NA,"Procedure expected",0
+"286","Procedures","2018-2019","N/A",NA,NA,NA,"No procedure expected",0
+"287","Procedures","2018-2019","N/A",NA,NA,NA,"X15 procedure recorded",0
+"288","Procedures","2018-2019","N/A",NA,NA,NA,"Other procedure recorded",0
+"289","Procedures","2019-2020","Gender: Female",NA,54.637436762226,93.1034482758621,"Procedure expected",0
+"290","Procedures","2019-2020","Gender: Female",NA,54.637436762226,93.1034482758621,"No procedure expected",0
+"291","Procedures","2019-2020","Gender: Female",NA,54.637436762226,93.1034482758621,"X15 procedure recorded",324
+"292","Procedures","2019-2020","Gender: Female",NA,54.637436762226,93.1034482758621,"Other procedure recorded",0
+"293","Procedures","2019-2020","Gender: Male",NA,1.83006535947712,3.11111111111111,"Procedure expected",0
+"294","Procedures","2019-2020","Gender: Male",NA,1.83006535947712,3.11111111111111,"No procedure expected",0
+"295","Procedures","2019-2020","Gender: Male",NA,1.83006535947712,3.11111111111111,"X15 procedure recorded",14
+"296","Procedures","2019-2020","Gender: Male",NA,1.83006535947712,3.11111111111111,"Other procedure recorded",0
+"297","Procedures","2019-2020","Gender: Unknown",NA,0,0,"Procedure expected",0
+"298","Procedures","2019-2020","Gender: Unknown",NA,0,0,"No procedure expected",0
+"299","Procedures","2019-2020","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"300","Procedures","2019-2020","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"301","Procedures","2019-2020","N/A",NA,NA,NA,"Procedure expected",0
+"302","Procedures","2019-2020","N/A",NA,NA,NA,"No procedure expected",0
+"303","Procedures","2019-2020","N/A",NA,NA,NA,"X15 procedure recorded",0
+"304","Procedures","2019-2020","N/A",NA,NA,NA,"Other procedure recorded",0
+"305","Procedures","2020-2021","Gender: Female",NA,51.7482517482517,91.9254658385093,"Procedure expected",0
+"306","Procedures","2020-2021","Gender: Female",NA,51.7482517482517,91.9254658385093,"No procedure expected",0
+"307","Procedures","2020-2021","Gender: Female",NA,51.7482517482517,91.9254658385093,"X15 procedure recorded",148
+"308","Procedures","2020-2021","Gender: Female",NA,51.7482517482517,91.9254658385093,"Other procedure recorded",0
+"309","Procedures","2020-2021","Gender: Male",NA,1.49812734082397,2.66666666666667,"Procedure expected",0
+"310","Procedures","2020-2021","Gender: Male",NA,1.49812734082397,2.66666666666667,"No procedure expected",0
+"311","Procedures","2020-2021","Gender: Male",NA,1.49812734082397,2.66666666666667,"X15 procedure recorded",4
+"312","Procedures","2020-2021","Gender: Male",NA,1.49812734082397,2.66666666666667,"Other procedure recorded",0
+"313","Procedures","2020-2021","Gender: Unknown",NA,0,0,"Procedure expected",0
+"314","Procedures","2020-2021","Gender: Unknown",NA,0,0,"No procedure expected",0
+"315","Procedures","2020-2021","Gender: Unknown",NA,0,0,"X15 procedure recorded",0
+"316","Procedures","2020-2021","Gender: Unknown",NA,0,0,"Other procedure recorded",0
+"317","Procedures","2020-2021","N/A",NA,NA,NA,"Procedure expected",0
+"318","Procedures","2020-2021","N/A",NA,NA,NA,"No procedure expected",0
+"319","Procedures","2020-2021","N/A",NA,NA,NA,"X15 procedure recorded",0
+"320","Procedures","2020-2021","N/A",NA,NA,NA,"Other procedure recorded",0
+"321","Procedures","2011-2012","Gender: Female",0,NA,NA,"Procedure expected",0
+"322","Procedures","2011-2012","Gender: Female",0,NA,NA,"No procedure expected",0
+"323","Procedures","2011-2012","Gender: Female",0,NA,NA,"X15 procedure recorded",0
+"324","Procedures","2011-2012","Gender: Female",0,NA,NA,"Other procedure recorded",0
+"325","Procedures","2011-2012","Gender: Male",819,1.13636363636364,1.9047619047619,"Procedure expected",0
+"326","Procedures","2011-2012","Gender: Male",819,1.13636363636364,1.9047619047619,"No procedure expected",0
+"327","Procedures","2011-2012","Gender: Male",819,1.13636363636364,1.9047619047619,"X15 procedure recorded",0
+"328","Procedures","2011-2012","Gender: Male",819,1.13636363636364,1.9047619047619,"Other procedure recorded",819
+"329","Procedures","2011-2012","Gender: Unknown",0,NA,NA,"Procedure expected",0
+"330","Procedures","2011-2012","Gender: Unknown",0,NA,NA,"No procedure expected",0
+"331","Procedures","2011-2012","Gender: Unknown",0,NA,NA,"X15 procedure recorded",0
+"332","Procedures","2011-2012","Gender: Unknown",0,NA,NA,"Other procedure recorded",0
+"333","Procedures","2011-2012","N/A",117,44.3452380952381,74.1293532338308,"Procedure expected",0
+"334","Procedures","2011-2012","N/A",117,44.3452380952381,74.1293532338308,"No procedure expected",0
+"335","Procedures","2011-2012","N/A",117,44.3452380952381,74.1293532338308,"X15 procedure recorded",0
+"336","Procedures","2011-2012","N/A",117,44.3452380952381,74.1293532338308,"Other procedure recorded",117
+"337","Procedures","2012-2013","Gender: Female",106,56.0553633217993,93.6416184971098,"Procedure expected",0
+"338","Procedures","2012-2013","Gender: Female",106,56.0553633217993,93.6416184971098,"No procedure expected",0
+"339","Procedures","2012-2013","Gender: Female",106,56.0553633217993,93.6416184971098,"X15 procedure recorded",0
+"340","Procedures","2012-2013","Gender: Female",106,56.0553633217993,93.6416184971098,"Other procedure recorded",106
+"341","Procedures","2012-2013","Gender: Male",678,1.86046511627907,3.07692307692308,"Procedure expected",0
+"342","Procedures","2012-2013","Gender: Male",678,1.86046511627907,3.07692307692308,"No procedure expected",0
+"343","Procedures","2012-2013","Gender: Male",678,1.86046511627907,3.07692307692308,"X15 procedure recorded",0
+"344","Procedures","2012-2013","Gender: Male",678,1.86046511627907,3.07692307692308,"Other procedure recorded",678
+"345","Procedures","2012-2013","Gender: Unknown",6,0,0,"Procedure expected",0
+"346","Procedures","2012-2013","Gender: Unknown",6,0,0,"No procedure expected",0
+"347","Procedures","2012-2013","Gender: Unknown",6,0,0,"X15 procedure recorded",0
+"348","Procedures","2012-2013","Gender: Unknown",6,0,0,"Other procedure recorded",6
+"349","Procedures","2012-2013","N/A",0,NA,NA,"Procedure expected",0
+"350","Procedures","2012-2013","N/A",0,NA,NA,"No procedure expected",0
+"351","Procedures","2012-2013","N/A",0,NA,NA,"X15 procedure recorded",0
+"352","Procedures","2012-2013","N/A",0,NA,NA,"Other procedure recorded",0
+"353","Procedures","2013-2014","Gender: Female",106,59.1216216216216,97.2222222222222,"Procedure expected",0
+"354","Procedures","2013-2014","Gender: Female",106,59.1216216216216,97.2222222222222,"No procedure expected",0
+"355","Procedures","2013-2014","Gender: Female",106,59.1216216216216,97.2222222222222,"X15 procedure recorded",0
+"356","Procedures","2013-2014","Gender: Female",106,59.1216216216216,97.2222222222222,"Other procedure recorded",106
+"357","Procedures","2013-2014","Gender: Male",720,0.408163265306122,0.671140939597315,"Procedure expected",0
+"358","Procedures","2013-2014","Gender: Male",720,0.408163265306122,0.671140939597315,"No procedure expected",0
+"359","Procedures","2013-2014","Gender: Male",720,0.408163265306122,0.671140939597315,"X15 procedure recorded",0
+"360","Procedures","2013-2014","Gender: Male",720,0.408163265306122,0.671140939597315,"Other procedure recorded",720
+"361","Procedures","2013-2014","Gender: Unknown",4,0,0,"Procedure expected",0
+"362","Procedures","2013-2014","Gender: Unknown",4,0,0,"No procedure expected",0
+"363","Procedures","2013-2014","Gender: Unknown",4,0,0,"X15 procedure recorded",0
+"364","Procedures","2013-2014","Gender: Unknown",4,0,0,"Other procedure recorded",4
+"365","Procedures","2013-2014","N/A",0,NA,NA,"Procedure expected",0
+"366","Procedures","2013-2014","N/A",0,NA,NA,"No procedure expected",0
+"367","Procedures","2013-2014","N/A",0,NA,NA,"X15 procedure recorded",0
+"368","Procedures","2013-2014","N/A",0,NA,NA,"Other procedure recorded",0
+"369","Procedures","2014-2015","Gender: Female",78,66.4285714285714,109.411764705882,"Procedure expected",0
+"370","Procedures","2014-2015","Gender: Female",78,66.4285714285714,109.411764705882,"No procedure expected",0
+"371","Procedures","2014-2015","Gender: Female",78,66.4285714285714,109.411764705882,"X15 procedure recorded",0
+"372","Procedures","2014-2015","Gender: Female",78,66.4285714285714,109.411764705882,"Other procedure recorded",78
+"373","Procedures","2014-2015","Gender: Male",591,1.18343195266272,1.95121951219512,"Procedure expected",0
+"374","Procedures","2014-2015","Gender: Male",591,1.18343195266272,1.95121951219512,"No procedure expected",0
+"375","Procedures","2014-2015","Gender: Male",591,1.18343195266272,1.95121951219512,"X15 procedure recorded",0
+"376","Procedures","2014-2015","Gender: Male",591,1.18343195266272,1.95121951219512,"Other procedure recorded",591
+"377","Procedures","2014-2015","Gender: Unknown",4,0.50761421319797,0.840336134453782,"Procedure expected",0
+"378","Procedures","2014-2015","Gender: Unknown",4,0.50761421319797,0.840336134453782,"No procedure expected",0
+"379","Procedures","2014-2015","Gender: Unknown",4,0.50761421319797,0.840336134453782,"X15 procedure recorded",0
+"380","Procedures","2014-2015","Gender: Unknown",4,0.50761421319797,0.840336134453782,"Other procedure recorded",4
+"381","Procedures","2014-2015","N/A",0,NA,NA,"Procedure expected",0
+"382","Procedures","2014-2015","N/A",0,NA,NA,"No procedure expected",0
+"383","Procedures","2014-2015","N/A",0,NA,NA,"X15 procedure recorded",0
+"384","Procedures","2014-2015","N/A",0,NA,NA,"Other procedure recorded",0
+"385","Procedures","2015-2016","Gender: Female",73,61,100.549450549451,"Procedure expected",0
+"386","Procedures","2015-2016","Gender: Female",73,61,100.549450549451,"No procedure expected",0
+"387","Procedures","2015-2016","Gender: Female",73,61,100.549450549451,"X15 procedure recorded",0
+"388","Procedures","2015-2016","Gender: Female",73,61,100.549450549451,"Other procedure recorded",73
+"389","Procedures","2015-2016","Gender: Male",512,1.21951219512195,2.01612903225806,"Procedure expected",0
+"390","Procedures","2015-2016","Gender: Male",512,1.21951219512195,2.01612903225806,"No procedure expected",0
+"391","Procedures","2015-2016","Gender: Male",512,1.21951219512195,2.01612903225806,"X15 procedure recorded",0
+"392","Procedures","2015-2016","Gender: Male",512,1.21951219512195,2.01612903225806,"Other procedure recorded",512
+"393","Procedures","2015-2016","Gender: Unknown",2,0,0,"Procedure expected",0
+"394","Procedures","2015-2016","Gender: Unknown",2,0,0,"No procedure expected",0
+"395","Procedures","2015-2016","Gender: Unknown",2,0,0,"X15 procedure recorded",0
+"396","Procedures","2015-2016","Gender: Unknown",2,0,0,"Other procedure recorded",2
+"397","Procedures","2015-2016","N/A",0,NA,NA,"Procedure expected",0
+"398","Procedures","2015-2016","N/A",0,NA,NA,"No procedure expected",0
+"399","Procedures","2015-2016","N/A",0,NA,NA,"X15 procedure recorded",0
+"400","Procedures","2015-2016","N/A",0,NA,NA,"Other procedure recorded",0
+"401","Procedures","2016-2017","Gender: Female",79,62.5,103.723404255319,"Procedure expected",0
+"402","Procedures","2016-2017","Gender: Female",79,62.5,103.723404255319,"No procedure expected",0
+"403","Procedures","2016-2017","Gender: Female",79,62.5,103.723404255319,"X15 procedure recorded",0
+"404","Procedures","2016-2017","Gender: Female",79,62.5,103.723404255319,"Other procedure recorded",79
+"405","Procedures","2016-2017","Gender: Male",483,1.62932790224033,2.7027027027027,"Procedure expected",0
+"406","Procedures","2016-2017","Gender: Male",483,1.62932790224033,2.7027027027027,"No procedure expected",0
+"407","Procedures","2016-2017","Gender: Male",483,1.62932790224033,2.7027027027027,"X15 procedure recorded",0
+"408","Procedures","2016-2017","Gender: Male",483,1.62932790224033,2.7027027027027,"Other procedure recorded",483
+"409","Procedures","2016-2017","Gender: Unknown",5,0,0,"Procedure expected",0
+"410","Procedures","2016-2017","Gender: Unknown",5,0,0,"No procedure expected",0
+"411","Procedures","2016-2017","Gender: Unknown",5,0,0,"X15 procedure recorded",0
+"412","Procedures","2016-2017","Gender: Unknown",5,0,0,"Other procedure recorded",5
+"413","Procedures","2016-2017","N/A",0,NA,NA,"Procedure expected",0
+"414","Procedures","2016-2017","N/A",0,NA,NA,"No procedure expected",0
+"415","Procedures","2016-2017","N/A",0,NA,NA,"X15 procedure recorded",0
+"416","Procedures","2016-2017","N/A",0,NA,NA,"Other procedure recorded",0
+"417","Procedures","2017-2018","Gender: Female",61,57.8378378378378,97.2727272727273,"Procedure expected",0
+"418","Procedures","2017-2018","Gender: Female",61,57.8378378378378,97.2727272727273,"No procedure expected",0
+"419","Procedures","2017-2018","Gender: Female",61,57.8378378378378,97.2727272727273,"X15 procedure recorded",0
+"420","Procedures","2017-2018","Gender: Female",61,57.8378378378378,97.2727272727273,"Other procedure recorded",61
+"421","Procedures","2017-2018","Gender: Male",390,2.14168039538715,3.61111111111111,"Procedure expected",0
+"422","Procedures","2017-2018","Gender: Male",390,2.14168039538715,3.61111111111111,"No procedure expected",0
+"423","Procedures","2017-2018","Gender: Male",390,2.14168039538715,3.61111111111111,"X15 procedure recorded",0
+"424","Procedures","2017-2018","Gender: Male",390,2.14168039538715,3.61111111111111,"Other procedure recorded",390
+"425","Procedures","2017-2018","Gender: Unknown",6,0,0,"Procedure expected",0
+"426","Procedures","2017-2018","Gender: Unknown",6,0,0,"No procedure expected",0
+"427","Procedures","2017-2018","Gender: Unknown",6,0,0,"X15 procedure recorded",0
+"428","Procedures","2017-2018","Gender: Unknown",6,0,0,"Other procedure recorded",6
+"429","Procedures","2017-2018","N/A",0,NA,NA,"Procedure expected",0
+"430","Procedures","2017-2018","N/A",0,NA,NA,"No procedure expected",0
+"431","Procedures","2017-2018","N/A",0,NA,NA,"X15 procedure recorded",0
+"432","Procedures","2017-2018","N/A",0,NA,NA,"Other procedure recorded",0
+"433","Procedures","2018-2019","Gender: Female",51,56.198347107438,96.113074204947,"Procedure expected",0
+"434","Procedures","2018-2019","Gender: Female",51,56.198347107438,96.113074204947,"No procedure expected",0
+"435","Procedures","2018-2019","Gender: Female",51,56.198347107438,96.113074204947,"X15 procedure recorded",0
+"436","Procedures","2018-2019","Gender: Female",51,56.198347107438,96.113074204947,"Other procedure recorded",51
+"437","Procedures","2018-2019","Gender: Male",487,2.45161290322581,4.18502202643172,"Procedure expected",0
+"438","Procedures","2018-2019","Gender: Male",487,2.45161290322581,4.18502202643172,"No procedure expected",0
+"439","Procedures","2018-2019","Gender: Male",487,2.45161290322581,4.18502202643172,"X15 procedure recorded",0
+"440","Procedures","2018-2019","Gender: Male",487,2.45161290322581,4.18502202643172,"Other procedure recorded",487
+"441","Procedures","2018-2019","Gender: Unknown",11,0,0,"Procedure expected",0
+"442","Procedures","2018-2019","Gender: Unknown",11,0,0,"No procedure expected",0
+"443","Procedures","2018-2019","Gender: Unknown",11,0,0,"X15 procedure recorded",0
+"444","Procedures","2018-2019","Gender: Unknown",11,0,0,"Other procedure recorded",11
+"445","Procedures","2018-2019","N/A",0,NA,NA,"Procedure expected",0
+"446","Procedures","2018-2019","N/A",0,NA,NA,"No procedure expected",0
+"447","Procedures","2018-2019","N/A",0,NA,NA,"X15 procedure recorded",0
+"448","Procedures","2018-2019","N/A",0,NA,NA,"Other procedure recorded",0
+"449","Procedures","2019-2020","Gender: Female",55,54.637436762226,93.1034482758621,"Procedure expected",0
+"450","Procedures","2019-2020","Gender: Female",55,54.637436762226,93.1034482758621,"No procedure expected",0
+"451","Procedures","2019-2020","Gender: Female",55,54.637436762226,93.1034482758621,"X15 procedure recorded",0
+"452","Procedures","2019-2020","Gender: Female",55,54.637436762226,93.1034482758621,"Other procedure recorded",55
+"453","Procedures","2019-2020","Gender: Male",301,1.83006535947712,3.11111111111111,"Procedure expected",0
+"454","Procedures","2019-2020","Gender: Male",301,1.83006535947712,3.11111111111111,"No procedure expected",0
+"455","Procedures","2019-2020","Gender: Male",301,1.83006535947712,3.11111111111111,"X15 procedure recorded",0
+"456","Procedures","2019-2020","Gender: Male",301,1.83006535947712,3.11111111111111,"Other procedure recorded",301
+"457","Procedures","2019-2020","Gender: Unknown",20,0,0,"Procedure expected",0
+"458","Procedures","2019-2020","Gender: Unknown",20,0,0,"No procedure expected",0
+"459","Procedures","2019-2020","Gender: Unknown",20,0,0,"X15 procedure recorded",0
+"460","Procedures","2019-2020","Gender: Unknown",20,0,0,"Other procedure recorded",20
+"461","Procedures","2019-2020","N/A",0,NA,NA,"Procedure expected",0
+"462","Procedures","2019-2020","N/A",0,NA,NA,"No procedure expected",0
+"463","Procedures","2019-2020","N/A",0,NA,NA,"X15 procedure recorded",0
+"464","Procedures","2019-2020","N/A",0,NA,NA,"Other procedure recorded",0
+"465","Procedures","2020-2021","Gender: Female",33,51.7482517482517,91.9254658385093,"Procedure expected",0
+"466","Procedures","2020-2021","Gender: Female",33,51.7482517482517,91.9254658385093,"No procedure expected",0
+"467","Procedures","2020-2021","Gender: Female",33,51.7482517482517,91.9254658385093,"X15 procedure recorded",0
+"468","Procedures","2020-2021","Gender: Female",33,51.7482517482517,91.9254658385093,"Other procedure recorded",33
+"469","Procedures","2020-2021","Gender: Male",124,1.49812734082397,2.66666666666667,"Procedure expected",0
+"470","Procedures","2020-2021","Gender: Male",124,1.49812734082397,2.66666666666667,"No procedure expected",0
+"471","Procedures","2020-2021","Gender: Male",124,1.49812734082397,2.66666666666667,"X15 procedure recorded",0
+"472","Procedures","2020-2021","Gender: Male",124,1.49812734082397,2.66666666666667,"Other procedure recorded",124
+"473","Procedures","2020-2021","Gender: Unknown",15,0,0,"Procedure expected",0
+"474","Procedures","2020-2021","Gender: Unknown",15,0,0,"No procedure expected",0
+"475","Procedures","2020-2021","Gender: Unknown",15,0,0,"X15 procedure recorded",0
+"476","Procedures","2020-2021","Gender: Unknown",15,0,0,"Other procedure recorded",15
+"477","Procedures","2020-2021","N/A",0,NA,NA,"Procedure expected",0
+"478","Procedures","2020-2021","N/A",0,NA,NA,"No procedure expected",0
+"479","Procedures","2020-2021","N/A",0,NA,NA,"X15 procedure recorded",0
+"480","Procedures","2020-2021","N/A",0,NA,NA,"Other procedure recorded",0

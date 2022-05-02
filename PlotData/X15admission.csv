@@ -1,0 +1,351 @@
+"","year","type","Code","FinEpisodes","Admissions","Admission","number","percentage"
+"1","2011to2012","Procedures","X15.1
+Male to female",145,145,"Emergency",6,4.13793103448276
+"2","2011to2012","Procedures","X15.1
+Male to female",145,145,"Waiting List",139,95.8620689655172
+"3","2011to2012","Procedures","X15.1
+Male to female",145,145,"Planned",0,0
+"4","2011to2012","Procedures","X15.1
+Male to female",145,145,"Other Admission",0,0
+"5","2011to2012","Procedures","X15.1
+Male to female",145,145,"No Admission",0,0
+"6","2011to2012","Procedures","X15.2
+Female to male",1,1,"Emergency",0,0
+"7","2011to2012","Procedures","X15.2
+Female to male",1,1,"Waiting List",0,0
+"8","2011to2012","Procedures","X15.2
+Female to male",1,1,"Planned",0,0
+"9","2011to2012","Procedures","X15.2
+Female to male",1,1,"Other Admission",1,100
+"10","2011to2012","Procedures","X15.2
+Female to male",1,1,"No Admission",0,0
+"11","2011to2012","Procedures","X15.8
+Other",5,5,"Emergency",0,0
+"12","2011to2012","Procedures","X15.8
+Other",5,5,"Waiting List",4,80
+"13","2011to2012","Procedures","X15.8
+Other",5,5,"Planned",0,0
+"14","2011to2012","Procedures","X15.8
+Other",5,5,"Other Admission",1,20
+"15","2011to2012","Procedures","X15.8
+Other",5,5,"No Admission",0,0
+"16","2012to2013","Procedures","X15.1
+Male to female",160,160,"Emergency",1,0.625
+"17","2012to2013","Procedures","X15.1
+Male to female",160,160,"Waiting List",159,99.375
+"18","2012to2013","Procedures","X15.1
+Male to female",160,160,"Planned",0,0
+"19","2012to2013","Procedures","X15.1
+Male to female",160,160,"Other Admission",0,0
+"20","2012to2013","Procedures","X15.1
+Male to female",160,160,"No Admission",0,0
+"21","2012to2013","Procedures","X15.2
+Female to male",4,4,"Emergency",0,0
+"22","2012to2013","Procedures","X15.2
+Female to male",4,4,"Waiting List",3,75
+"23","2012to2013","Procedures","X15.2
+Female to male",4,4,"Planned",1,25
+"24","2012to2013","Procedures","X15.2
+Female to male",4,4,"Other Admission",0,0
+"25","2012to2013","Procedures","X15.2
+Female to male",4,4,"No Admission",0,0
+"26","2012to2013","Procedures","X15.8
+Other",2,2,"Emergency",0,0
+"27","2012to2013","Procedures","X15.8
+Other",2,2,"Waiting List",2,100
+"28","2012to2013","Procedures","X15.8
+Other",2,2,"Planned",0,0
+"29","2012to2013","Procedures","X15.8
+Other",2,2,"Other Admission",0,0
+"30","2012to2013","Procedures","X15.8
+Other",2,2,"No Admission",0,0
+"31","2013to2014","Procedures","X15.1
+Male to female",171,161,"Emergency",5,2.92397660818713
+"32","2013to2014","Procedures","X15.1
+Male to female",171,161,"Waiting List",156,91.2280701754386
+"33","2013to2014","Procedures","X15.1
+Male to female",171,161,"Planned",0,0
+"34","2013to2014","Procedures","X15.1
+Male to female",171,161,"Other Admission",0,0
+"35","2013to2014","Procedures","X15.1
+Male to female",171,161,"No Admission",10,5.84795321637427
+"36","2013to2014","Procedures","X15.2
+Female to male",1,1,"Emergency",0,0
+"37","2013to2014","Procedures","X15.2
+Female to male",1,1,"Waiting List",1,100
+"38","2013to2014","Procedures","X15.2
+Female to male",1,1,"Planned",0,0
+"39","2013to2014","Procedures","X15.2
+Female to male",1,1,"Other Admission",0,0
+"40","2013to2014","Procedures","X15.2
+Female to male",1,1,"No Admission",0,0
+"41","2013to2014","Procedures","X15.8
+Other",3,3,"Emergency",0,0
+"42","2013to2014","Procedures","X15.8
+Other",3,3,"Waiting List",2,66.6666666666667
+"43","2013to2014","Procedures","X15.8
+Other",3,3,"Planned",1,33.3333333333333
+"44","2013to2014","Procedures","X15.8
+Other",3,3,"Other Admission",0,0
+"45","2013to2014","Procedures","X15.8
+Other",3,3,"No Admission",0,0
+"46","2013to2014","Procedures","X15.9
+Unspecified",1,1,"Emergency",0,0
+"47","2013to2014","Procedures","X15.9
+Unspecified",1,1,"Waiting List",1,100
+"48","2013to2014","Procedures","X15.9
+Unspecified",1,1,"Planned",0,0
+"49","2013to2014","Procedures","X15.9
+Unspecified",1,1,"Other Admission",0,0
+"50","2013to2014","Procedures","X15.9
+Unspecified",1,1,"No Admission",0,0
+"51","2014to2015","Procedures","X15.1
+Male to female",72,72,"Emergency",0,0
+"52","2014to2015","Procedures","X15.1
+Male to female",72,72,"Waiting List",72,100
+"53","2014to2015","Procedures","X15.1
+Male to female",72,72,"Planned",0,0
+"54","2014to2015","Procedures","X15.1
+Male to female",72,72,"Other Admission",0,0
+"55","2014to2015","Procedures","X15.1
+Male to female",72,72,"No Admission",0,0
+"56","2014to2015","Procedures","X15.2
+Female to male",2,2,"Emergency",0,0
+"57","2014to2015","Procedures","X15.2
+Female to male",2,2,"Waiting List",2,100
+"58","2014to2015","Procedures","X15.2
+Female to male",2,2,"Planned",0,0
+"59","2014to2015","Procedures","X15.2
+Female to male",2,2,"Other Admission",0,0
+"60","2014to2015","Procedures","X15.2
+Female to male",2,2,"No Admission",0,0
+"61","2014to2015","Procedures","X15.8
+Other",113,113,"Emergency",2,1.76991150442478
+"62","2014to2015","Procedures","X15.8
+Other",113,113,"Waiting List",111,98.2300884955752
+"63","2014to2015","Procedures","X15.8
+Other",113,113,"Planned",0,0
+"64","2014to2015","Procedures","X15.8
+Other",113,113,"Other Admission",0,0
+"65","2014to2015","Procedures","X15.8
+Other",113,113,"No Admission",0,0
+"66","2014to2015","Procedures","X15.9
+Unspecified",4,4,"Emergency",0,0
+"67","2014to2015","Procedures","X15.9
+Unspecified",4,4,"Waiting List",4,100
+"68","2014to2015","Procedures","X15.9
+Unspecified",4,4,"Planned",0,0
+"69","2014to2015","Procedures","X15.9
+Unspecified",4,4,"Other Admission",0,0
+"70","2014to2015","Procedures","X15.9
+Unspecified",4,4,"No Admission",0,0
+"71","2015to2016","Procedures","X15.1
+Male to female",87,87,"Emergency",0,0
+"72","2015to2016","Procedures","X15.1
+Male to female",87,87,"Waiting List",87,100
+"73","2015to2016","Procedures","X15.1
+Male to female",87,87,"Planned",0,0
+"74","2015to2016","Procedures","X15.1
+Male to female",87,87,"Other Admission",0,0
+"75","2015to2016","Procedures","X15.1
+Male to female",87,87,"No Admission",0,0
+"76","2015to2016","Procedures","X15.2
+Female to male",8,8,"Emergency",0,0
+"77","2015to2016","Procedures","X15.2
+Female to male",8,8,"Waiting List",7,87.5
+"78","2015to2016","Procedures","X15.2
+Female to male",8,8,"Planned",1,12.5
+"79","2015to2016","Procedures","X15.2
+Female to male",8,8,"Other Admission",0,0
+"80","2015to2016","Procedures","X15.2
+Female to male",8,8,"No Admission",0,0
+"81","2015to2016","Procedures","X15.8
+Other",92,91,"Emergency",4,4.34782608695652
+"82","2015to2016","Procedures","X15.8
+Other",92,91,"Waiting List",87,94.5652173913043
+"83","2015to2016","Procedures","X15.8
+Other",92,91,"Planned",0,0
+"84","2015to2016","Procedures","X15.8
+Other",92,91,"Other Admission",0,0
+"85","2015to2016","Procedures","X15.8
+Other",92,91,"No Admission",1,1.08695652173913
+"86","2015to2016","Procedures","X15.9
+Unspecified",1,1,"Emergency",0,0
+"87","2015to2016","Procedures","X15.9
+Unspecified",1,1,"Waiting List",1,100
+"88","2015to2016","Procedures","X15.9
+Unspecified",1,1,"Planned",0,0
+"89","2015to2016","Procedures","X15.9
+Unspecified",1,1,"Other Admission",0,0
+"90","2015to2016","Procedures","X15.9
+Unspecified",1,1,"No Admission",0,0
+"91","2016to2017","Procedures","X15.1
+Male to female",119,119,"Emergency",0,0
+"92","2016to2017","Procedures","X15.1
+Male to female",119,119,"Waiting List",119,100
+"93","2016to2017","Procedures","X15.1
+Male to female",119,119,"Planned",0,0
+"94","2016to2017","Procedures","X15.1
+Male to female",119,119,"Other Admission",0,0
+"95","2016to2017","Procedures","X15.1
+Male to female",119,119,"No Admission",0,0
+"96","2016to2017","Procedures","X15.2
+Female to male",5,5,"Emergency",0,0
+"97","2016to2017","Procedures","X15.2
+Female to male",5,5,"Waiting List",4,80
+"98","2016to2017","Procedures","X15.2
+Female to male",5,5,"Planned",1,20
+"99","2016to2017","Procedures","X15.2
+Female to male",5,5,"Other Admission",0,0
+"100","2016to2017","Procedures","X15.2
+Female to male",5,5,"No Admission",0,0
+"101","2016to2017","Procedures","X15.8
+Other",79,79,"Emergency",5,6.32911392405063
+"102","2016to2017","Procedures","X15.8
+Other",79,79,"Waiting List",73,92.4050632911392
+"103","2016to2017","Procedures","X15.8
+Other",79,79,"Planned",1,1.26582278481013
+"104","2016to2017","Procedures","X15.8
+Other",79,79,"Other Admission",0,0
+"105","2016to2017","Procedures","X15.8
+Other",79,79,"No Admission",0,0
+"106","2017to2018","Procedures","X15.1
+Male to female",132,132,"Emergency",0,0
+"107","2017to2018","Procedures","X15.1
+Male to female",132,132,"Waiting List",132,100
+"108","2017to2018","Procedures","X15.1
+Male to female",132,132,"Planned",0,0
+"109","2017to2018","Procedures","X15.1
+Male to female",132,132,"Other Admission",0,0
+"110","2017to2018","Procedures","X15.1
+Male to female",132,132,"No Admission",0,0
+"111","2017to2018","Procedures","X15.2
+Female to male",5,5,"Emergency",0,0
+"112","2017to2018","Procedures","X15.2
+Female to male",5,5,"Waiting List",5,100
+"113","2017to2018","Procedures","X15.2
+Female to male",5,5,"Planned",0,0
+"114","2017to2018","Procedures","X15.2
+Female to male",5,5,"Other Admission",0,0
+"115","2017to2018","Procedures","X15.2
+Female to male",5,5,"No Admission",0,0
+"116","2017to2018","Procedures","X15.8
+Other",88,87,"Emergency",1,1.13636363636364
+"117","2017to2018","Procedures","X15.8
+Other",88,87,"Waiting List",85,96.5909090909091
+"118","2017to2018","Procedures","X15.8
+Other",88,87,"Planned",1,1.13636363636364
+"119","2017to2018","Procedures","X15.8
+Other",88,87,"Other Admission",0,0
+"120","2017to2018","Procedures","X15.8
+Other",88,87,"No Admission",1,1.13636363636364
+"121","2017to2018","Procedures","X15.9
+Unspecified",2,2,"Emergency",0,0
+"122","2017to2018","Procedures","X15.9
+Unspecified",2,2,"Waiting List",2,100
+"123","2017to2018","Procedures","X15.9
+Unspecified",2,2,"Planned",0,0
+"124","2017to2018","Procedures","X15.9
+Unspecified",2,2,"Other Admission",0,0
+"125","2017to2018","Procedures","X15.9
+Unspecified",2,2,"No Admission",0,0
+"126","2018to2019","Procedures","X15.1
+Male to female",201,201,"Emergency",0,0
+"127","2018to2019","Procedures","X15.1
+Male to female",201,201,"Waiting List",201,100
+"128","2018to2019","Procedures","X15.1
+Male to female",201,201,"Planned",0,0
+"129","2018to2019","Procedures","X15.1
+Male to female",201,201,"Other Admission",0,0
+"130","2018to2019","Procedures","X15.1
+Male to female",201,201,"No Admission",0,0
+"131","2018to2019","Procedures","X15.2
+Female to male",15,15,"Emergency",0,0
+"132","2018to2019","Procedures","X15.2
+Female to male",15,15,"Waiting List",15,100
+"133","2018to2019","Procedures","X15.2
+Female to male",15,15,"Planned",0,0
+"134","2018to2019","Procedures","X15.2
+Female to male",15,15,"Other Admission",0,0
+"135","2018to2019","Procedures","X15.2
+Female to male",15,15,"No Admission",0,0
+"136","2018to2019","Procedures","X15.8
+Other",73,73,"Emergency",4,5.47945205479452
+"137","2018to2019","Procedures","X15.8
+Other",73,73,"Waiting List",65,89.041095890411
+"138","2018to2019","Procedures","X15.8
+Other",73,73,"Planned",4,5.47945205479452
+"139","2018to2019","Procedures","X15.8
+Other",73,73,"Other Admission",0,0
+"140","2018to2019","Procedures","X15.8
+Other",73,73,"No Admission",0,0
+"141","2018to2019","Procedures","X15.9
+Unspecified",2,2,"Emergency",0,0
+"142","2018to2019","Procedures","X15.9
+Unspecified",2,2,"Waiting List",2,100
+"143","2018to2019","Procedures","X15.9
+Unspecified",2,2,"Planned",0,0
+"144","2018to2019","Procedures","X15.9
+Unspecified",2,2,"Other Admission",0,0
+"145","2018to2019","Procedures","X15.9
+Unspecified",2,2,"No Admission",0,0
+"146","2019to2020","Procedures","X15.1
+Male to female",247,245,"Emergency",0,0
+"147","2019to2020","Procedures","X15.1
+Male to female",247,245,"Waiting List",244,98.7854251012146
+"148","2019to2020","Procedures","X15.1
+Male to female",247,245,"Planned",1,0.404858299595142
+"149","2019to2020","Procedures","X15.1
+Male to female",247,245,"Other Admission",0,0
+"150","2019to2020","Procedures","X15.1
+Male to female",247,245,"No Admission",2,0.809716599190283
+"151","2019to2020","Procedures","X15.2
+Female to male",12,12,"Emergency",0,0
+"152","2019to2020","Procedures","X15.2
+Female to male",12,12,"Waiting List",11,91.6666666666667
+"153","2019to2020","Procedures","X15.2
+Female to male",12,12,"Planned",1,8.33333333333333
+"154","2019to2020","Procedures","X15.2
+Female to male",12,12,"Other Admission",0,0
+"155","2019to2020","Procedures","X15.2
+Female to male",12,12,"No Admission",0,0
+"156","2019to2020","Procedures","X15.8
+Other",79,79,"Emergency",1,1.26582278481013
+"157","2019to2020","Procedures","X15.8
+Other",79,79,"Waiting List",78,98.7341772151899
+"158","2019to2020","Procedures","X15.8
+Other",79,79,"Planned",0,0
+"159","2019to2020","Procedures","X15.8
+Other",79,79,"Other Admission",0,0
+"160","2019to2020","Procedures","X15.8
+Other",79,79,"No Admission",0,0
+"161","2020to2021","Procedures","X15.1
+Male to female",129,128,"Emergency",0,0
+"162","2020to2021","Procedures","X15.1
+Male to female",129,128,"Waiting List",128,99.2248062015504
+"163","2020to2021","Procedures","X15.1
+Male to female",129,128,"Planned",0,0
+"164","2020to2021","Procedures","X15.1
+Male to female",129,128,"Other Admission",0,0
+"165","2020to2021","Procedures","X15.1
+Male to female",129,128,"No Admission",1,0.775193798449612
+"166","2020to2021","Procedures","X15.2
+Female to male",3,3,"Emergency",0,0
+"167","2020to2021","Procedures","X15.2
+Female to male",3,3,"Waiting List",3,100
+"168","2020to2021","Procedures","X15.2
+Female to male",3,3,"Planned",0,0
+"169","2020to2021","Procedures","X15.2
+Female to male",3,3,"Other Admission",0,0
+"170","2020to2021","Procedures","X15.2
+Female to male",3,3,"No Admission",0,0
+"171","2020to2021","Procedures","X15.8
+Other",20,20,"Emergency",0,0
+"172","2020to2021","Procedures","X15.8
+Other",20,20,"Waiting List",20,100
+"173","2020to2021","Procedures","X15.8
+Other",20,20,"Planned",0,0
+"174","2020to2021","Procedures","X15.8
+Other",20,20,"Other Admission",0,0
+"175","2020to2021","Procedures","X15.8
+Other",20,20,"No Admission",0,0

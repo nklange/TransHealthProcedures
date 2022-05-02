@@ -1,0 +1,201 @@
+"","year","GroupCode","gender","totalep","sumvalue"
+"1","2011to2012","Aspiration of sperm","Female",557,0
+"2","2011to2012","Aspiration of sperm","Unknown",557,0
+"3","2011to2012","Aspiration of sperm","N/A",557,2
+"4","2011to2012","Hysterectomy","Male",37837,22
+"5","2011to2012","Hysterectomy","Unknown",37837,0
+"6","2011to2012","Mastectomy","Male",3672,774
+"7","2011to2012","Mastectomy","Unknown",3672,0
+"8","2011to2012","Oocyte recovery","Male",7429,1
+"9","2011to2012","Oocyte recovery","Unknown",7429,0
+"10","2011to2012","Orchidectomy","Female",3950,0
+"11","2011to2012","Orchidectomy","Unknown",3950,0
+"12","2011to2012","Orchidectomy","N/A",3950,17
+"13","2011to2012","Penectomy","Female",337,0
+"14","2011to2012","Penectomy","Unknown",337,0
+"15","2011to2012","Penectomy","N/A",337,9
+"16","2011to2012","Phalloplasty","Male",23,22
+"17","2011to2012","Phalloplasty","Unknown",23,0
+"18","2011to2012","Vaginoplasty","Female",89,0
+"19","2011to2012","Vaginoplasty","Unknown",89,0
+"20","2011to2012","Vaginoplasty","N/A",89,89
+"21","2012to2013","Aspiration of sperm","Female",614,4
+"22","2012to2013","Aspiration of sperm","Unknown",614,0
+"23","2012to2013","Aspiration of sperm","N/A",614,0
+"24","2012to2013","Hysterectomy","Male",36593,27
+"25","2012to2013","Hysterectomy","Unknown",36593,6
+"26","2012to2013","Mastectomy","Male",3832,635
+"27","2012to2013","Mastectomy","Unknown",3832,0
+"28","2012to2013","Oocyte recovery","Male",7993,3
+"29","2012to2013","Oocyte recovery","Unknown",7993,0
+"30","2012to2013","Orchidectomy","Female",3960,7
+"31","2012to2013","Orchidectomy","Unknown",3960,0
+"32","2012to2013","Orchidectomy","N/A",3960,0
+"33","2012to2013","Penectomy","Female",420,0
+"34","2012to2013","Penectomy","Unknown",420,0
+"35","2012to2013","Penectomy","N/A",420,0
+"36","2012to2013","Phalloplasty","Male",13,13
+"37","2012to2013","Phalloplasty","Unknown",13,0
+"38","2012to2013","Vaginoplasty","Female",95,95
+"39","2012to2013","Vaginoplasty","Unknown",95,0
+"40","2012to2013","Vaginoplasty","N/A",95,0
+"41","2013to2014","Aspiration of sperm","Female",603,2
+"42","2013to2014","Aspiration of sperm","Unknown",603,0
+"43","2013to2014","Aspiration of sperm","N/A",603,0
+"44","2013to2014","Hysterectomy","Male",37181,25
+"45","2013to2014","Hysterectomy","Unknown",37181,2
+"46","2013to2014","Mastectomy","Male",4373,665
+"47","2013to2014","Mastectomy","Unknown",4373,2
+"48","2013to2014","Oocyte recovery","Male",8535,3
+"49","2013to2014","Oocyte recovery","Unknown",8535,0
+"50","2013to2014","Orchidectomy","Female",3972,10
+"51","2013to2014","Orchidectomy","Unknown",3972,0
+"52","2013to2014","Orchidectomy","N/A",3972,0
+"53","2013to2014","Penectomy","Female",353,0
+"54","2013to2014","Penectomy","Unknown",353,0
+"55","2013to2014","Penectomy","N/A",353,0
+"56","2013to2014","Phalloplasty","Male",27,27
+"57","2013to2014","Phalloplasty","Unknown",27,0
+"58","2013to2014","Vaginoplasty","Female",94,94
+"59","2013to2014","Vaginoplasty","Unknown",94,0
+"60","2013to2014","Vaginoplasty","N/A",94,0
+"61","2014to2015","Aspiration of sperm","Female",636,1
+"62","2014to2015","Aspiration of sperm","Unknown",636,0
+"63","2014to2015","Aspiration of sperm","N/A",636,0
+"64","2014to2015","Hysterectomy","Male",36564,36
+"65","2014to2015","Hysterectomy","Unknown",36564,4
+"66","2014to2015","Mastectomy","Male",5028,543
+"67","2014to2015","Mastectomy","Unknown",5028,0
+"68","2014to2015","Oocyte recovery","Male",7880,0
+"69","2014to2015","Oocyte recovery","Unknown",7880,0
+"70","2014to2015","Orchidectomy","Female",2577,1
+"71","2014to2015","Orchidectomy","Unknown",2577,0
+"72","2014to2015","Orchidectomy","N/A",2577,0
+"73","2014to2015","Penectomy","Female",368,0
+"74","2014to2015","Penectomy","Unknown",368,0
+"75","2014to2015","Penectomy","N/A",368,0
+"76","2014to2015","Phalloplasty","Male",12,12
+"77","2014to2015","Phalloplasty","Unknown",12,0
+"78","2014to2015","Vaginoplasty","Female",76,76
+"79","2014to2015","Vaginoplasty","Unknown",76,0
+"80","2014to2015","Vaginoplasty","N/A",76,0
+"81","2015to2016","Aspiration of sperm","Female",682,1
+"82","2015to2016","Aspiration of sperm","Unknown",682,0
+"83","2015to2016","Aspiration of sperm","N/A",682,0
+"84","2015to2016","Hysterectomy","Male",34959,40
+"85","2015to2016","Hysterectomy","Unknown",34959,1
+"86","2015to2016","Mastectomy","Male",4909,460
+"87","2015to2016","Mastectomy","Unknown",4909,1
+"88","2015to2016","Oocyte recovery","Male",8475,0
+"89","2015to2016","Oocyte recovery","Unknown",8475,0
+"90","2015to2016","Orchidectomy","Female",2227,5
+"91","2015to2016","Orchidectomy","Unknown",2227,0
+"92","2015to2016","Orchidectomy","N/A",2227,0
+"93","2015to2016","Penectomy","Female",406,0
+"94","2015to2016","Penectomy","Unknown",406,0
+"95","2015to2016","Penectomy","N/A",406,0
+"96","2015to2016","Phalloplasty","Male",12,12
+"97","2015to2016","Phalloplasty","Unknown",12,0
+"98","2015to2016","Vaginoplasty","Female",67,67
+"99","2015to2016","Vaginoplasty","Unknown",67,0
+"100","2015to2016","Vaginoplasty","N/A",67,0
+"101","2016to2017","Aspiration of sperm","Female",661,0
+"102","2016to2017","Aspiration of sperm","Unknown",661,0
+"103","2016to2017","Aspiration of sperm","N/A",661,0
+"104","2016to2017","Hysterectomy","Male",34980,61
+"105","2016to2017","Hysterectomy","Unknown",34980,5
+"106","2016to2017","Mastectomy","Male",4886,405
+"107","2016to2017","Mastectomy","Unknown",4886,0
+"108","2016to2017","Oocyte recovery","Male",7740,1
+"109","2016to2017","Oocyte recovery","Unknown",7740,0
+"110","2016to2017","Orchidectomy","Female",2098,2
+"111","2016to2017","Orchidectomy","Unknown",2098,0
+"112","2016to2017","Orchidectomy","N/A",2098,0
+"113","2016to2017","Penectomy","Female",397,0
+"114","2016to2017","Penectomy","Unknown",397,0
+"115","2016to2017","Penectomy","N/A",397,0
+"116","2016to2017","Phalloplasty","Male",16,16
+"117","2016to2017","Phalloplasty","Unknown",16,0
+"118","2016to2017","Vaginoplasty","Female",77,77
+"119","2016to2017","Vaginoplasty","Unknown",77,0
+"120","2016to2017","Vaginoplasty","N/A",77,0
+"121","2017to2018","Aspiration of sperm","Female",521,0
+"122","2017to2018","Aspiration of sperm","Unknown",521,0
+"123","2017to2018","Aspiration of sperm","N/A",521,0
+"124","2017to2018","Hysterectomy","Male",33210,40
+"125","2017to2018","Hysterectomy","Unknown",33210,2
+"126","2017to2018","Mastectomy","Male",4865,345
+"127","2017to2018","Mastectomy","Unknown",4865,4
+"128","2017to2018","Oocyte recovery","Male",8063,2
+"129","2017to2018","Oocyte recovery","Unknown",8063,0
+"130","2017to2018","Orchidectomy","Female",1944,4
+"131","2017to2018","Orchidectomy","Unknown",1944,0
+"132","2017to2018","Orchidectomy","N/A",1944,0
+"133","2017to2018","Penectomy","Female",431,0
+"134","2017to2018","Penectomy","Unknown",431,0
+"135","2017to2018","Penectomy","N/A",431,0
+"136","2017to2018","Phalloplasty","Male",3,3
+"137","2017to2018","Phalloplasty","Unknown",3,0
+"138","2017to2018","Vaginoplasty","Female",57,57
+"139","2017to2018","Vaginoplasty","Unknown",57,0
+"140","2017to2018","Vaginoplasty","N/A",57,0
+"141","2018to2019","Aspiration of sperm","Female",566,0
+"142","2018to2019","Aspiration of sperm","Unknown",566,3
+"143","2018to2019","Aspiration of sperm","N/A",566,0
+"144","2018to2019","Hysterectomy","Male",33482,63
+"145","2018to2019","Hysterectomy","Unknown",33482,7
+"146","2018to2019","Mastectomy","Male",4918,408
+"147","2018to2019","Mastectomy","Unknown",4918,1
+"148","2018to2019","Oocyte recovery","Male",7221,9
+"149","2018to2019","Oocyte recovery","Unknown",7221,0
+"150","2018to2019","Orchidectomy","Female",1899,7
+"151","2018to2019","Orchidectomy","Unknown",1899,0
+"152","2018to2019","Orchidectomy","N/A",1899,0
+"153","2018to2019","Penectomy","Female",486,0
+"154","2018to2019","Penectomy","Unknown",486,0
+"155","2018to2019","Penectomy","N/A",486,0
+"156","2018to2019","Phalloplasty","Male",7,7
+"157","2018to2019","Phalloplasty","Unknown",7,0
+"158","2018to2019","Vaginoplasty","Female",44,44
+"159","2018to2019","Vaginoplasty","Unknown",44,0
+"160","2018to2019","Vaginoplasty","N/A",44,0
+"161","2019to2020","Aspiration of sperm","Female",567,1
+"162","2019to2020","Aspiration of sperm","Unknown",567,8
+"163","2019to2020","Aspiration of sperm","N/A",567,0
+"164","2019to2020","Hysterectomy","Male",32071,63
+"165","2019to2020","Hysterectomy","Unknown",32071,6
+"166","2019to2020","Mastectomy","Male",4630,225
+"167","2019to2020","Mastectomy","Unknown",4630,4
+"168","2019to2020","Oocyte recovery","Male",6156,8
+"169","2019to2020","Oocyte recovery","Unknown",6156,2
+"170","2019to2020","Orchidectomy","Female",1860,12
+"171","2019to2020","Orchidectomy","Unknown",1860,0
+"172","2019to2020","Orchidectomy","N/A",1860,0
+"173","2019to2020","Penectomy","Female",504,1
+"174","2019to2020","Penectomy","Unknown",504,0
+"175","2019to2020","Penectomy","N/A",504,0
+"176","2019to2020","Phalloplasty","Male",5,5
+"177","2019to2020","Phalloplasty","Unknown",5,0
+"178","2019to2020","Vaginoplasty","Female",41,41
+"179","2019to2020","Vaginoplasty","Unknown",41,0
+"180","2019to2020","Vaginoplasty","N/A",41,0
+"181","2020to2021","Aspiration of sperm","Female",219,2
+"182","2020to2021","Aspiration of sperm","Unknown",219,0
+"183","2020to2021","Aspiration of sperm","N/A",219,0
+"184","2020to2021","Hysterectomy","Male",21869,26
+"185","2020to2021","Hysterectomy","Unknown",21869,9
+"186","2020to2021","Mastectomy","Male",2540,90
+"187","2020to2021","Mastectomy","Unknown",2540,4
+"188","2020to2021","Oocyte recovery","Male",3341,6
+"189","2020to2021","Oocyte recovery","Unknown",3341,2
+"190","2020to2021","Orchidectomy","Female",1581,7
+"191","2020to2021","Orchidectomy","Unknown",1581,0
+"192","2020to2021","Orchidectomy","N/A",1581,0
+"193","2020to2021","Penectomy","Female",398,1
+"194","2020to2021","Penectomy","Unknown",398,0
+"195","2020to2021","Penectomy","N/A",398,0
+"196","2020to2021","Phalloplasty","Male",2,2
+"197","2020to2021","Phalloplasty","Unknown",2,0
+"198","2020to2021","Vaginoplasty","Female",23,23
+"199","2020to2021","Vaginoplasty","Unknown",23,0
+"200","2020to2021","Vaginoplasty","N/A",23,0

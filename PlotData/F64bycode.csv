@@ -1,0 +1,48 @@
+"","year","type","Code","Description","FinEpisodes","GenderMale","GenderFemale","GenderUnknown","percentage"
+"1","2011to2012","Diagnoses","F64.0","Transsexualism",412,"145",NA,NA,80.46875
+"2","2011to2012","Diagnoses","F64.1","Dual-role transvestism",2,"1",NA,NA,0.390625
+"3","2011to2012","Diagnoses","F64.2","Gender identity disorder of childhood",5,"5",NA,NA,0.9765625
+"4","2011to2012","Diagnoses","F64.8","Other gender identity disorders",6,"3",NA,NA,1.171875
+"5","2011to2012","Diagnoses","F64.9","Gender identity disorder, unspecified",87,"22",NA,NA,16.9921875
+"6","2012to2013","Diagnoses","F64.0","Transsexualism",511,"179","262","70",85.8823529411765
+"7","2012to2013","Diagnoses","F64.1","Dual-role transvestism",1,"1","0","0",0.168067226890756
+"8","2012to2013","Diagnoses","F64.2","Gender identity disorder of childhood",5,"1","1","3",0.840336134453782
+"9","2012to2013","Diagnoses","F64.8","Other gender identity disorders",6,"3","2","1",1.00840336134454
+"10","2012to2013","Diagnoses","F64.9","Gender identity disorder, unspecified",72,"31","24","17",12.1008403361345
+"11","2013to2014","Diagnoses","F64.0","Transsexualism",573,"221","276","76",92.5686591276252
+"12","2013to2014","Diagnoses","F64.1","Dual-role transvestism",1,"1","0","0",0.161550888529887
+"13","2013to2014","Diagnoses","F64.2","Gender identity disorder of childhood",5,"0","5","0",0.807754442649435
+"14","2013to2014","Diagnoses","F64.8","Other gender identity disorders",4,"2","2","0",0.646203554119548
+"15","2013to2014","Diagnoses","F64.9","Gender identity disorder, unspecified",36,"21","13","2",5.81583198707593
+"16","2014to2015","Diagnoses","F64.0","Transsexualism",755,"301","264","190",92.6380368098159
+"17","2014to2015","Diagnoses","F64.1","Dual-role transvestism",1,"1","0","0",0.122699386503067
+"18","2014to2015","Diagnoses","F64.2","Gender identity disorder of childhood",4,"2","2","0",0.49079754601227
+"19","2014to2015","Diagnoses","F64.8","Other gender identity disorders",4,"3","1","0",0.49079754601227
+"20","2014to2015","Diagnoses","F64.9","Gender identity disorder, unspecified",51,"31","13","7",6.25766871165644
+"21","2015to2016","Diagnoses","F64.0","Transsexualism",870,"374","281","215",94.0540540540541
+"22","2015to2016","Diagnoses","F64.1","Dual-role transvestism",2,"1","1","0",0.216216216216216
+"23","2015to2016","Diagnoses","F64.2","Gender identity disorder of childhood",7,"2","5","0",0.756756756756757
+"24","2015to2016","Diagnoses","F64.8","Other gender identity disorders",2,"1","1","0",0.216216216216216
+"25","2015to2016","Diagnoses","F64.9","Gender identity disorder, unspecified",44,"32","12","0",4.75675675675676
+"26","2016to2017","Diagnoses","F64.0","Transsexualism",924,"423","265","236",85.239852398524
+"27","2016to2017","Diagnoses","F64.2","Gender identity disorder of childhood",40,"21","19","0",3.690036900369
+"28","2016to2017","Diagnoses","F64.8","Other gender identity disorders",9,"7","1","1",0.830258302583026
+"29","2016to2017","Diagnoses","F64.9","Gender identity disorder, unspecified",111,"40","27","44",10.239852398524
+"30","2017to2018","Diagnoses","F64.0","Transsexualism",1201,"526","322","353",89.9625468164794
+"31","2017to2018","Diagnoses","F64.1","Dual-role transvestism",2,"1","1","0",0.149812734082397
+"32","2017to2018","Diagnoses","F64.2","Gender identity disorder of childhood",53,"37","15","1",3.97003745318352
+"33","2017to2018","Diagnoses","F64.8","Other gender identity disorders",4,"2","1","1",0.299625468164794
+"34","2017to2018","Diagnoses","F64.9","Gender identity disorder, unspecified",75,"41","31","3",5.61797752808989
+"35","2018to2019","Diagnoses","F64.0","Transsexualism",1473,"697","418","358",90.7019704433498
+"36","2018to2019","Diagnoses","F64.2","Gender identity disorder of childhood",56,"29","26","1",3.44827586206897
+"37","2018to2019","Diagnoses","F64.8","Other gender identity disorders",18,"6","9","3",1.10837438423645
+"38","2018to2019","Diagnoses","F64.9","Gender identity disorder, unspecified",77,"43","31","3",4.74137931034483
+"39","2019to2020","Diagnoses","F64.0","Transsexualism",1476,"713","529","234",90.1098901098901
+"40","2019to2020","Diagnoses","F64.2","Gender identity disorder of childhood",40,"13","24","3",2.44200244200244
+"41","2019to2020","Diagnoses","F64.8","Other gender identity disorders",7,"4","2","1",0.427350427350427
+"42","2019to2020","Diagnoses","F64.9","Gender identity disorder, unspecified",115,"35","38","42",7.02075702075702
+"43","2020to2021","Diagnoses","F64.0","Transsexualism",484,"219","254","11",66.3923182441701
+"44","2020to2021","Diagnoses","F64.1","Dual-role transvestism",1,"0","1","0",0.137174211248285
+"45","2020to2021","Diagnoses","F64.2","Gender identity disorder of childhood",4,"0","4","0",0.548696844993141
+"46","2020to2021","Diagnoses","F64.8","Other gender identity disorders",6,"1","5","0",0.823045267489712
+"47","2020to2021","Diagnoses","F64.9","Gender identity disorder, unspecified",234,"47","22","165",32.0987654320988

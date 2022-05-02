@@ -1,0 +1,71 @@
+"","year","type","Code","FinEpisodes","MedianWaiting"
+"1","2011to2012","Procedures","X15.1
+Male to female",145,139
+"2","2011to2012","Procedures","X15.2
+Female to male",1,0
+"3","2011to2012","Procedures","X15.8
+Other",5,93
+"4","2012to2013","Procedures","X15.1
+Male to female",160,151
+"5","2012to2013","Procedures","X15.2
+Female to male",4,168
+"6","2012to2013","Procedures","X15.8
+Other",2,172
+"7","2013to2014","Procedures","X15.1
+Male to female",171,182.5
+"8","2013to2014","Procedures","X15.2
+Female to male",1,57
+"9","2013to2014","Procedures","X15.8
+Other",3,57.5
+"10","2013to2014","Procedures","X15.9
+Unspecified",1,2
+"11","2014to2015","Procedures","X15.1
+Male to female",72,186
+"12","2014to2015","Procedures","X15.2
+Female to male",2,70
+"13","2014to2015","Procedures","X15.8
+Other",113,250.5
+"14","2014to2015","Procedures","X15.9
+Unspecified",4,204
+"15","2015to2016","Procedures","X15.1
+Male to female",87,252
+"16","2015to2016","Procedures","X15.2
+Female to male",8,147
+"17","2015to2016","Procedures","X15.8
+Other",92,236
+"18","2015to2016","Procedures","X15.9
+Unspecified",1,113
+"19","2016to2017","Procedures","X15.1
+Male to female",119,238
+"20","2016to2017","Procedures","X15.2
+Female to male",5,244
+"21","2016to2017","Procedures","X15.8
+Other",79,120
+"22","2017to2018","Procedures","X15.1
+Male to female",132,276
+"23","2017to2018","Procedures","X15.2
+Female to male",5,125
+"24","2017to2018","Procedures","X15.8
+Other",88,87
+"25","2017to2018","Procedures","X15.9
+Unspecified",2,95
+"26","2018to2019","Procedures","X15.1
+Male to female",201,125
+"27","2018to2019","Procedures","X15.2
+Female to male",15,269
+"28","2018to2019","Procedures","X15.8
+Other",73,83
+"29","2018to2019","Procedures","X15.9
+Unspecified",2,NA
+"30","2019to2020","Procedures","X15.1
+Male to female",247,58
+"31","2019to2020","Procedures","X15.2
+Female to male",12,198
+"32","2019to2020","Procedures","X15.8
+Other",79,71
+"33","2020to2021","Procedures","X15.1
+Male to female",129,398
+"34","2020to2021","Procedures","X15.2
+Female to male",3,250
+"35","2020to2021","Procedures","X15.8
+Other",20,268

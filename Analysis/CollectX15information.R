@@ -50,6 +50,8 @@ transdiag <- c("F64.0","F64.1","F64.2","F64.8","F64.9")
 hosp <- tibble(readxl::read_xlsx("NHSDocuments/hosp-epis-stat-admi-proc-2020-21-tab.xlsx",
                                  sheet = 4)) %>% set_colnames(c("codes",c(1:49)))
 
+
+
 header_prov <- hosp[8,]
 header_rfriendly <- c("Code","Description",	"T1",	"T2",	"T3",	"T4","T5",
                       "FinEpisodes","Admissions","GenderMale","GenderFemale","GenderUnknown",
@@ -82,6 +84,12 @@ extractdiag <- diag %>% filter(codes %in% transdiag) %>%
                                                          type="Diagnoses")
 
 year2020to2021 <- bind_rows(extractdiag,extracthosp,extracthospAlt)
+
+
+
+totyear2020to2021 <- tibble(year = c("2020to2021","2020to2021"),
+                            Stat = c("Procedures","Diagnoses"),
+                            number = as.numeric(c(hosp[[12,8]],diag[[12,8]])))
 
 #2019 - 2020 -------------------------------------------------------------------
 
@@ -126,6 +134,11 @@ extractdiag <- diag %>% filter(codes %in% transdiag) %>%
 year2019to2020 <- bind_rows(extractdiag,extracthosp,extracthospAlt)
 
 
+totyear2019to2020 <- tibble(year = c("2019to2020","2019to2020"),
+                            Stat = c("Procedures","Diagnoses"),
+                            number = as.numeric(c(hosp[[10,8]],diag[[9,8]])))
+
+
 #2018 - 2019 -------------------------------------------------------------------
 
 
@@ -166,6 +179,12 @@ extractdiag <- diag %>% filter(codes %in% transdiag) %>%
 
 year2018to2019 <- bind_rows(extractdiag,extracthosp,extracthospAlt)
 
+
+totyear2018to2019 <- tibble(year = c("2018to2019","2018to2019"),
+                            Stat = c("Procedures","Diagnoses"),
+                            number = as.numeric(c(hosp[[10,8]],diag[[9,8]])))
+
+
 #2017 - 2018 -------------------------------------------------------------------
 
 
@@ -205,6 +224,12 @@ extractdiag <- diag %>% filter(codes %in% transdiag) %>%
                                                          type="Diagnoses")
 
 year2017to2018 <- bind_rows(extractdiag,extracthosp,extracthospAlt)
+
+
+totyear2017to2018 <- tibble(year = c("2017to2018","2017to2018"),
+                            Stat = c("Procedures","Diagnoses"),
+                            number = as.numeric(c(hosp[[10,8]],diag[[9,8]])))
+
 
 #2016 - 2017 -------------------------------------------------------------------
 
@@ -247,6 +272,11 @@ extractdiag <- diag %>% filter(codes %in% transdiag) %>%
 year2016to2017 <- bind_rows(extractdiag,extracthosp,extracthospAlt) %>%
   mutate_all(funs(stringr::str_replace(., "-", "0")))
 
+
+totyear2016to2017 <- tibble(year = c("2016to2017","2016to2017"),
+                            Stat = c("Procedures","Diagnoses"),
+                            number = as.numeric(c(hosp[[10,8]],diag[[9,8]])))
+
 #2015 - 2016 -------------------------------------------------------------------
 
 
@@ -287,6 +317,11 @@ extractdiag <- diag %>% filter(codes %in% transdiag) %>%
 
 year2015to2016 <- bind_rows(extractdiag,extracthosp,extracthospAlt)
 
+
+totyear2015to2016 <- tibble(year = c("2015to2016","2015to2016"),
+                            Stat = c("Procedures","Diagnoses"),
+                            number = as.numeric(c(hosp[[10,8]],diag[[10,8]])))
+
 #2014 - 2015 -------------------------------------------------------------------
 
 
@@ -324,6 +359,11 @@ extractdiag <- diag %>% filter(codes %in% transdiag) %>%
                                                          type="Diagnoses")
 
 year2014to2015 <- bind_rows(extractdiag,extracthosp,extracthospAlt)
+
+
+totyear2014to2015 <- tibble(year = c("2014to2015","2014to2015"),
+                            Stat = c("Procedures","Diagnoses"),
+                            number = as.numeric(c(hosp[[10,8]],diag[[10,8]])))
 
 #2013 - 2014 -------------------------------------------------------------------
 
@@ -369,6 +409,10 @@ extractdiag <- diag %>% filter(codes %in% transdiag) %>%
 
 year2013to2014 <- bind_rows(extractdiag,extracthosp,extracthospAlt)
 
+totyear2013to2014 <- tibble(year = c("2013to2014","2013to2014"),
+                            Stat = c("Procedures","Diagnoses"),
+                            number = as.numeric(c(hosp[[10,3]],diag[[10,3]])))
+
 #2012 - 2013 -------------------------------------------------------------------
 
 
@@ -412,9 +456,16 @@ extractdiag <- diag %>% filter(codes %in% transdiag) %>%
 
 year2012to2013 <- bind_rows(extractdiag,extracthosp,extracthospAlt)
 
+totyear2012to2013 <- tibble(year = c("2012to2013","2012to2013"),
+                            Stat = c("Procedures","Diagnoses"),
+                            number = as.numeric(c(hosp[[9,3]],diag[[9,3]])))
+
+
 #2011 - 2012 --------------------------------------------
 
-hosp <- read.csv("NHSDocuments/hes_apc_national_procedure_2011_12.csv") %>%
+hosp <- read.csv("NHSDocuments/hes_apc_national_procedure_2011_12.csv")
+
+  hosp2 <- hosp %>%
   filter(DimensionCode %in% procedurecodes) %>%
   pivot_wider(id_cols = c(DimensionCode,DimensionDescription),names_from=c("MeasureCategory","MeasureSubCategory"),values_from="MeasureValue")
 
@@ -431,7 +482,7 @@ header_rfriendly2 <- c("CodeDescription",
                       "MeanStay","MedianStay",
                       "MeanAge","Age0to14",
                       "Age15to59","Age60to74","Age75plus","DayCase","FCEBedDays")
-extracthosp <- hosp %>% set_names(header_rfriendly) %>%
+extracthosp <- hosp2 %>% set_names(header_rfriendly) %>%
   mutate(across(everything(), as.character)) %>%
   mutate(codes = stringr::str_remove_all(Code,"[‡ ]")) %>%
   mutate(year="2011to2012",
@@ -462,8 +513,12 @@ extractdiag <- diag %>% filter(grepl(paste(transdiag, collapse = "|"),codes)) %>
   mutate(year="2011to2012",
          type="Diagnoses")
 
-year2011to2012 <- bind_rows(extractdiag,extracthosp,extracthospAlt)
 
+
+year2011to2012 <- bind_rows(extractdiag,extracthosp,extracthospAlt)
+totyear2011to2012 <- tibble(year = c("2011to2012","2011to2012"),
+                            Stat = c("Procedures","Diagnoses"),
+                            number = as.numeric(c(hosp[[1,9]],diag[[10,2]])))
 
 
 # Collect all -----------------------------------------------------------------
@@ -473,6 +528,14 @@ CollectedData <- bind_rows(year2011to2012,year2012to2013,year2013to2014,year2014
   relocate(year,type)
 
 saveRDS(CollectedData,file="ProcessedData/ProceduresDiag.rds")
+
+CollectedData2 <- bind_rows(totyear2011to2012,totyear2012to2013,totyear2013to2014,totyear2014to2015,totyear2015to2016,totyear2016to2017,
+                            totyear2017to2018,totyear2018to2019,totyear2019to2020,totyear2020to2021) %>%
+  relocate(year,Stat)
+
+
+saveRDS(CollectedData2,file="ProcessedData/ProceduresDiagTotal.rds")
+
 
 ###############################################################################
 # Code for further analysis and graphs is in the R-markdown document

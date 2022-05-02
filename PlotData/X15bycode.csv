@@ -1,0 +1,36 @@
+"","year","type","Code","Description","FinEpisodes","GenderMale","GenderFemale","GenderUnknown","percentage"
+"1","2011to2012","Procedures","X15.1","Combined operations for transformation from male to female",145,"0",NA,NA,96.0264900662252
+"2","2011to2012","Procedures","X15.2","Combined operations for transformation from female to male",1,"1",NA,NA,0.662251655629139
+"3","2011to2012","Procedures","X15.8","Other specified operations for sexual transformation",5,"1",NA,NA,3.3112582781457
+"4","2012to2013","Procedures","X15.1","Combined operations for transformation from male to female",160,"0","160","0",96.3855421686747
+"5","2012to2013","Procedures","X15.2","Combined operations for transformation from female to male",4,"3","1","0",2.40963855421687
+"6","2012to2013","Procedures","X15.8","Other specified operations for sexual transformation",2,"1","1","0",1.20481927710843
+"7","2013to2014","Procedures","X15.1","Combined operations for transformation from male to female",171,"0","171","0",97.1590909090909
+"8","2013to2014","Procedures","X15.2","Combined operations for transformation from female to male",1,"1","0","0",0.568181818181818
+"9","2013to2014","Procedures","X15.8","Other specified operations for sexual transformation",3,"0","3","0",1.70454545454545
+"10","2013to2014","Procedures","X15.9","Unspecified operations for sexual transformation",1,"0","1","0",0.568181818181818
+"11","2014to2015","Procedures","X15.1","Combined operations for transformation from male to female",72,"1","71","0",37.696335078534
+"12","2014to2015","Procedures","X15.2","Combined operations for transformation from female to male",2,"1","1","0",1.04712041884817
+"13","2014to2015","Procedures","X15.8","Other specified operations for sexual transformation",113,"2","110","1",59.1623036649215
+"14","2014to2015","Procedures","X15.9","Unspecified operations for sexual transformation",4,"0","4","0",2.09424083769634
+"15","2015to2016","Procedures","X15.1","Combined operations for transformation from male to female",87,"0","87","0",46.2765957446808
+"16","2015to2016","Procedures","X15.2","Combined operations for transformation from female to male",8,"5","3","0",4.25531914893617
+"17","2015to2016","Procedures","X15.8","Other specified operations for sexual transformation",92,"0","92","0",48.936170212766
+"18","2015to2016","Procedures","X15.9","Unspecified operations for sexual transformation",1,"0","1","0",0.531914893617021
+"19","2016to2017","Procedures","X15.1","Combined operations for transformation from male to female",119,"0","119","0",58.6206896551724
+"20","2016to2017","Procedures","X15.2","Combined operations for transformation from female to male",5,"5","0","0",2.46305418719212
+"21","2016to2017","Procedures","X15.8","Other specified operations for sexual transformation",79,"3","76","0",38.9162561576355
+"22","2017to2018","Procedures","X15.1","Combined operations for transformation from male to female",132,"3","129","0",58.1497797356828
+"23","2017to2018","Procedures","X15.2","Combined operations for transformation from female to male",5,"4","1","0",2.20264317180617
+"24","2017to2018","Procedures","X15.8","Other specified operations for sexual transformation",88,"6","82","0",38.7665198237885
+"25","2017to2018","Procedures","X15.9","Unspecified operations for sexual transformation",2,"0","2","0",0.881057268722467
+"26","2018to2019","Procedures","X15.1","Combined operations for transformation from male to female",201,"0","201","0",69.0721649484536
+"27","2018to2019","Procedures","X15.2","Combined operations for transformation from female to male",15,"14","1","0",5.15463917525773
+"28","2018to2019","Procedures","X15.8","Other specified operations for sexual transformation",73,"5","68","0",25.085910652921
+"29","2018to2019","Procedures","X15.9","Unspecified operations for sexual transformation",2,"0","2","0",0.687285223367698
+"30","2019to2020","Procedures","X15.1","Combined operations for transformation from male to female",247,"1","246","0",73.0769230769231
+"31","2019to2020","Procedures","X15.2","Combined operations for transformation from female to male",12,"11","1","0",3.55029585798817
+"32","2019to2020","Procedures","X15.8","Other specified operations for sexual transformation",79,"2","77","0",23.3727810650888
+"33","2020to2021","Procedures","X15.1","Combined operations for transformation from male to female",129,"0","129","0",84.8684210526316
+"34","2020to2021","Procedures","X15.2","Combined operations for transformation from female to male",3,"3","0","0",1.97368421052632
+"35","2020to2021","Procedures","X15.8","Other specified operations for sexual transformation",20,"1","19","0",13.1578947368421
