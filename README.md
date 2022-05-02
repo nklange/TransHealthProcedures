@@ -4,7 +4,7 @@ This analysis is based on aggregate hospital episodes data published by NHS Digi
 
 The preprocessing of the data is in [Analysis/CollectX15information.R](https://github.com/nklange/TransHealthProcedures/blob/main/Analysis/CollectX15information.R).
 
-The analysis is in the [InitialReport_publicNHSDigital.Rmd](https://github.com/nklange/TransHealthProcedures/blob/main/InitialReport_publicNHSDigital.Rmd) file.
+The analysis is in the [InitialReport_publicNHSDigital2.Rmd](https://github.com/nklange/TransHealthProcedures/blob/main/InitialReport_publicNHSDigital2.Rmd) file.
 
 The output of that Rmarkdown document is published under
 
